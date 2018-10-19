@@ -33,14 +33,12 @@ footer{
 }
 h1{
 	padding: 10vw 0 10vw 0;
-	/*font-size: 2.2em;*/
 	font-size: 9vw;
 	font-weight: 700;
 	color: #111;
 }
 h3{
 	padding: 5vw 0 5vw 0;
-	/*font-size: 1.4em;*/
 	font-size: 6vw;
 	font-weight: 400;
 	color: #555;
@@ -53,4 +51,8 @@ button.cta{
 	font-weight: 700;
 	background-color: #111;
 	border: none;
+}
+button.cta:hover{
+	cursor: pointer;
+	background-color: #555;
 }
