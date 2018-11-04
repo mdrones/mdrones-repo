@@ -3,34 +3,35 @@
 *{
 	padding: 0;
 	margin: 0;
-	/*font-size: inherit;*/
 	font-family: inherit;
 	box-sizing: border-box;
 	text-decoration: none;
 }
 
-/*============================================== MEDIA QUERIES */
+/*============================================== GLOBAL */
 
 html{
 	/*font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width])));*/
-	font-size: calc(16px + (24 - 16) * ((100vw - 400px) / (960 - 400)));
+	font-size: calc(16px + (24 - 16) * ((100vw - 320px) / (960 - 320)));
 }
 body{
 	width: 100vw;
 	background-color: #fff;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Hind Madurai', sans-serif;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 .all-containers{
-	width: 90%;
+	/*padding: 0 5%;*/
+	width: 100%;
+	padding: 0 5vw;
 }
 #navbar{
 	height: 3em;
 }
 h1{
-	margin: 1em 0 1em 0;
+	/*margin: 1.2em 0 1.2em 0;*/
 	font-weight: 700;
 	color: #111;
 	font-size: 2em;
@@ -40,30 +41,31 @@ h2{
 	font-size: 1em;
 }
 h3{
-	margin: 1em 0 1em 0;
+	margin: 1.2em 0 1.2em 0;
 	font-weight: 400;
-	color: #555;
-	font-size: 1em;
+	color: #222;
+	font-size: 1.2em;
 }
 h4{
-	margin: 1em 0 1em 0;
+	margin: 1.2em 0 0.4em 0;
 	font-weight: 700;
-	font-size: 1em;
+	font-size: 1.2em;
 }
 p{
-	margin: 1em 0 1em 0;
+	margin: 0.4em 0 0.4em 0;
 	font-weight: 400;
 	font-size: 1em;
 }
 h5{
-	margin: 1em 0 1em 0;
+	margin: 1.2em 0 1.2em 0;
 	text-align: center;
 	font-size: 0.5em;
 	font-weight: 400;
 }
 button.cta{
-	margin: 1em 0 1em 0;
+	margin: 1.2em 0 1.2em 0;
 	padding: 1em 2.5em 1em 2.5em;
+	font-size: 0.8em;
 	color: #fff;
 	background-color: #111;
 	border: none;
@@ -71,4 +73,12 @@ button.cta{
 button.cta:hover{
 	cursor: pointer;
 	background-color: #555;
+}
+
+
+.section1{
+	background-color: #ccc;
+}
+.modelpreview{
+	margin: 0 auto;
 }
