@@ -25,7 +25,7 @@ body{
 .all-containers{
 	/*padding: 0 5%;*/
 	width: 100%;
-	padding: 0 5vw;
+	padding: 0 8vw;
 }
 #navbar{
 	height: 3rem;
@@ -73,8 +73,6 @@ button.cta:hover{
 	cursor: pointer;
 	background-color: #555;
 }
-
-
 .section01{
 	background-color: pink;
 }
@@ -86,4 +84,7 @@ button.cta:hover{
 }
 .modelpreview{
 	margin: 0 auto;
+}
+ul{
+	margin-left: 1em;
 }
