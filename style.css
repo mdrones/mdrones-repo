@@ -12,7 +12,7 @@
 
 html{
 	/*font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width])));*/
-	font-size: calc(16px + (22 - 16) * ((100vw - 320px) / (960 - 320)));
+	font-size: calc(16px + (20 - 16) * ((100vw - 320px) / (960 - 320)));
 }
 body{
 	width: 100vw;
@@ -23,7 +23,7 @@ body{
 	align-items: center;
 }
 h1{
-	/*margin: 1.2em 0 1.2em 0;*/
+	margin: 1.2rem 0 0.4rem 0;
 	font-weight: 700;
 	color: #111;
 	font-size: 2rem;
@@ -39,14 +39,14 @@ h3{
 	font-size: 1.2rem;
 }
 h4{
-	margin: 1.2rem 0 0.4rem 0;
+	margin: 1.2rem 0 0.6rem 0;
 	font-weight: 700;
 	font-size: 1.2rem;
 }
 h5{
 	margin: 1.2rem 0 1.2rem 0;
 	text-align: center;
-	font-size: 0.5rem;
+	font-size: 0.7rem;
 	font-weight: 400;
 }
 p{
@@ -55,14 +55,20 @@ p{
 	font-size: 1rem;
 }
 ul{
-	margin: 0 0 1.2rem 1rem;
+	margin: 0rem 0 1.2rem 1rem;
+}
+li{
+	margin: 0.3em 0;
+}
+footer.all-containers{
+	padding: 1rem 8vw;
 }
 
 /*============================================== CLASS */
 
 button.cta{
 	margin: 1.2rem 0 1.2rem 0;
-	padding: 1rem 2.5rem 1rem 2.5rem;
+	padding: 1rem 2rem 1rem 2rem;
 	color: #fff;
 	background-color: #111;
 	border: none;
@@ -74,7 +80,7 @@ button.cta:hover{
 .all-containers{
 	/*padding: 0 5%;*/
 	width: 100%;
-	padding: 0 8vw;
+	padding: 2rem 8vw;
 }
 .modelpreview{
 	margin: 0 auto;
