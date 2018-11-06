@@ -29,14 +29,14 @@ body{
 h1{
 	margin: 1.2rem 0 0.4rem 0;
 	font-weight: 700;
-	color: #111;
+	color: #333232;
 	font-size: 2rem;
 }
 /*TITLE SUBHEADING*/
 h2{
 	margin: 1.2rem 0 1.2rem 0;
 	font-weight: 400;
-	color: #222;
+	color: #545f66;
 	font-size: 1.2rem;
 }
 /*H2 = BUTTON TEXT*/
@@ -49,14 +49,15 @@ h4{
 	margin: 1.2rem 0 0.6rem 0;
 	font-weight: 700;
 	font-size: 1.2rem;
+	color: #333232;
 }
 /*NORMAL SUBHEADING*/
 h5{
 	margin: 1.2rem 0 0 0;
-	font-weight: 400;
+	font-weight: 700;
 	font-size: 0.8rem;
 	text-transform: uppercase;
-	color: #999;
+	color: #6d98ba;
 }
 /**/
 h6{
@@ -67,6 +68,7 @@ p{
 	font-weight: 400;
 	font-size: 1rem;
 	line-height: 1.4rem;
+	color: #545f66;
 }
 ul{
 	margin: 0rem 0 1.4rem 1rem;
@@ -74,6 +76,7 @@ ul{
 li{
 	margin: 0.2rem 0;
 	line-height: 1.4rem;
+	color: #545f66;
 }
 iframe{
 	margin: 1em 0;
@@ -85,15 +88,26 @@ video{
 /*============================================== CLASS */
 
 button.cta{
-	margin: 1.2rem 0 1.2rem 0;
-	padding: 1rem 2rem 1rem 2rem;
+	margin: 1.2rem 0;
+	padding: 0.8rem 1.6rem;
 	color: #fff;
-	background-color: #111;
+	background-color: #f79f79;
 	border: none;
 }
 button.cta:hover{
 	cursor: pointer;
-	background-color: #555;
+	opacity: 0.5;
+}
+button.normal{
+	margin: 1.2rem 0;
+	padding: 0.6rem 1.2rem;
+	color: #fff;
+	background-color: #6d98ba;
+	border: none;
+}
+button.normal:hover{
+	cursor: pointer;
+	opacity: 0.5;
 }
 footer.all-containers{
 	padding: 0rem 8vw;
@@ -102,17 +116,20 @@ footer.all-containers{
 	width: 100%;
 	padding: 1.4rem 8vw;
 }
-/*.all-containers:nth-child(odd){
-	background-color: #eee;
-}*/
 
 /*============================================== ID */
 
 #navbar{
 	height: 4rem;
 }
-#b{
+#showcase{
 	margin: 0 auto;
+}
+#safety{
+
+}
+#how{
+
 }
 #smallprint{
 	margin: 1.2rem 0 1.2rem 0;
