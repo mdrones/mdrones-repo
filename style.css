@@ -15,53 +15,71 @@ html{
 	font-size: calc(16px + (20 - 16) * ((100vw - 320px) / (960 - 320)));
 }
 body{
+	max-width: 100%;
 	width: 100vw;
+	/*max-width: 55rem;*/
+	margin: 0 auto;
 	background-color: #fff;
 	font-family: 'Hind Madurai', sans-serif;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
+/*TITLE*/
 h1{
 	margin: 1.2rem 0 0.4rem 0;
 	font-weight: 700;
 	color: #111;
 	font-size: 2rem;
 }
+/*TITLE SUBHEADING*/
 h2{
-	font-weight: 700;
-	font-size: 1rem;
-}
-h3{
 	margin: 1.2rem 0 1.2rem 0;
 	font-weight: 400;
 	color: #222;
 	font-size: 1.2rem;
 }
+/*H2 = BUTTON TEXT*/
+h3{
+	font-weight: 700;
+	font-size: 1rem;
+}
+/*NORMAL HEADING*/
 h4{
 	margin: 1.2rem 0 0.6rem 0;
 	font-weight: 700;
 	font-size: 1.2rem;
 }
+/*NORMAL SUBHEADING*/
 h5{
-	margin: 1.2rem 0 1.2rem 0;
-	text-align: center;
-	font-size: 0.7rem;
+	margin: 1.2rem 0 0 0;
 	font-weight: 400;
+	font-size: 0.8rem;
+	text-transform: uppercase;
+	color: #999;
+}
+/**/
+h6{
+
 }
 p{
-	margin: 0.4rem 0 1.2rem 0;
+	margin: 1rem 0;
 	font-weight: 400;
 	font-size: 1rem;
+	line-height: 1.4rem;
 }
 ul{
-	margin: 0rem 0 1.2rem 1rem;
+	margin: 0rem 0 1.4rem 1rem;
 }
 li{
-	margin: 0.3em 0;
+	margin: 0.2rem 0;
+	line-height: 1.4rem;
 }
-footer.all-containers{
-	padding: 1rem 8vw;
+iframe{
+	margin: 1em 0;
+}
+video{
+	margin: 1em 0;
 }
 
 /*============================================== CLASS */
@@ -77,38 +95,28 @@ button.cta:hover{
 	cursor: pointer;
 	background-color: #555;
 }
+footer.all-containers{
+	padding: 0rem 8vw;
+}
 .all-containers{
-	/*padding: 0 5%;*/
 	width: 100%;
-	padding: 2rem 8vw;
+	padding: 1.4rem 8vw;
 }
-.modelpreview{
-	margin: 0 auto;
-}
+/*.all-containers:nth-child(odd){
+	background-color: #eee;
+}*/
 
 /*============================================== ID */
 
 #navbar{
-	height: 3rem;
+	height: 4rem;
 }
-#hero-one{
-	background-color: #eee;
+#b{
+	margin: 0 auto;
 }
-#makedrones-two{
-
-}
-#getnew-three{
-	background-color: #eee;
-}
-#safetyandcred-four{
-
-}
-#howitworks-five{
-	background-color: #eee;
-}
-#dontflyunder-six{
-
-}
-#modelpreview-seven{
-	background-color: #eee;
+#smallprint{
+	margin: 1.2rem 0 1.2rem 0;
+	text-align: center;
+	font-size: 0.7rem;
+	font-weight: 400;
 }
