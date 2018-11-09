@@ -11,24 +11,60 @@
 	</head>
 	<body>
 		<div class="all-containers" id="navbar">
-			
+			<img src="images/wide_full.svg" id="main-logo">
+
+			 <div id="menuToggle">
+				<!--a fake / hidden checkbox is used as click reciever, so you can use the :checked selector on it-->
+				<input type="checkbox"/>
+
+				<!--some spans to act as a hamburger-->
+				<span></span>
+				<span></span>
+				<span></span>
+
+				<ul id="menu">
+					<a href="index.html"><li id="current-page">Home</li></a>
+					<a href="#"><li>FAQ</li></a>
+					<a href="#"><li>Contact Us</li></a>
+				</ul>
+			  </div>
+
 		</div>
 		<div class="all-containers" id="hero">
 			<h1>We help businesses and consumers to benefit from professional drone photography.</h1>
-			<h2>Whether you want to change the way the world views your business, capture the lay of the land or immortalise a special occasion, we offer a unique and affordable aerial perspective.</h2>
+			<h2>Whether you want to change the way the world views your business, capture the lay of the land or immortalise a special occasion, we're proud to offer a unique and affordable aerial perspective.</h2>
 			<a href="mailto:test@milestonedrones.co.uk"><button class="cta"><h3>Enquire via Email</h3></button></a>
 		</div>
 		<div class="all-containers" id="services">
 			<h4>Make our drones your secret weapon</h4>
-			<p>With stabilised video capture at up to 4K UHD, you'll be suprised at what you can achieve:</p>
-			<ul>
-				<li>shoot memorable promotional footage for sports teams, events, businesses and real estate</li>
-				<li>create high fidelity maps and models of geography/architecture in 2D and 3D</li>
-				<li>inspect and measure buildings, chimneys, roofs, turbines and other hard to reach places</li>
-				<li>perform thermal imaging surveys to monitor wildlife and inspect solar farms</li>
-				<li>document progress on construction projects of any size</li>			
+			<p>With stabilised video capture at up to 4K UHD, you'll be suprised by what you can achieve:</p>
+			<ul class="flex-grid">
+				<li class="flex-card">
+					<div class="placeholder"></div>
+					<h6>Shoot memorable promotional footage for sports teams, events, businesses and real estate</h6>
+				</li>
+				<li class="flex-card">
+					<div class="placeholder"></div>
+					<h6>Create high fidelity maps and models of geography and architecture in 2D and 3D</h6>
+				</li>
+				<li class="flex-card">
+					<div class="placeholder"></div>
+					<h6>Inspect and measure buildings, chimneys, roofs, turbines and other hard to reach places</h6>
+				</li>
+				<li class="flex-card">
+					<div class="placeholder"></div>
+					<h6>Perform thermal imaging surveys to monitor wildlife and inspect solar farms</h6>
+				</li>
+				<li class="flex-card">
+					<div class="placeholder"></div>
+					<h6>Document progress on construction projects of any size</h6>
+				</li>
+				<li class="flex-card">
+					<div class="placeholder"></div>
+					<h6>Get the photos and footage you need to make a splash</h6>
+				</li>	
 			</ul>
-			<p>The possibilities are endless, and every project is different - that's why we enjoy our job.</p>
+			<p>The possibilities are endless, and every project is different - that's why we enjoy what we do.</p>
 		</div>
 		<div class="all-containers" id="showcase">
 			<h4>See for yourself</h4>
@@ -46,26 +82,56 @@
 		<div class="all-containers" id="safety">
 			<h4>Fully insured and CAA approved</h4>
 			<p>Our professional pilots take safety seriously and are always happy to answer any questions you may have.</p>
+			<a href="#"><button class="normal"><h3>Read our FAQ</h3></button></a>
 		</div>
 		<div class="all-containers" id="how">
 			<h4>How it works</h4>
-			<p>Most projects follow a similar trajectory:</p>
-			<ul>
-				<li>discuss your project requirements</li>
-				<li>assess the location, the weather and any required flight permissions</li>
-				<li>complete the scheduled mission along with any requested video editing</li>
-				<li>handover the assets</li>		
+			<p>An overview of your project's trajetory:</p>
+			<ul class="flex-grid">
+				<li class="flex-card">
+					<div class="placeholder"></div>
+					<h6>First, we'll discuss your project with you to establish how we can put our resources to best use.</h6>
+				</li>
+				<li class="flex-card">
+					<div class="placeholder"></div>
+					<h6>Next, our team will assess each location, monitor the weather and obtain any required flight permissions.</h6>
+				</li>
+				<li class="flex-card">
+					<div class="placeholder"></div>
+					<h6>We will then complete the scheduled mission as planned, along with any requested video editing.</h6>
+				</li>	
 			</ul>
-			<p>We always work hard to ensure the best outcome, and to be flexible in the face of adverse weather.</p>
-			<a href="#"><button class="normal"><h3>Read our FAQ</h3></button></a>
 		</div>
+<!-- 		<div class="all-containers" id="what">
+			<h4>What will I recieve?</h4>
+			<p>If you want your assets ready to use, we can provide edited drone footage in a variety of formats:</p>
+			<ul class="flex-grid">
+				<li class="flex-card">
+					<div class="placeholder"></div>
+					<h5>MP4</h5>
+					<h6>Default format of all drone footage.</h6>
+				</li>
+				<li class="flex-card">
+					<div class="placeholder"></div>
+					<h5>Web Ready</h5>
+					<h6>Ready to be uploaded to video hosting platforms such as Youtube and Vimeo.</h6>
+				</li>
+				<li class="flex-card">
+					<div class="placeholder"></div>
+					<h5>H264</h5>
+					<h6>Alternative format for HD video.</h6>
+				</li>	
+			</ul>
+		</div> -->
 		<div class="all-containers" id="cta">
 			<h4>Don't fly under the radar</h4>
-			<p>Get in touch today to discuss your requirements:</p>
+			<p>Get in touch with us today to discuss your requirements:</p>
 			<a href="mailto:test@milestonedrones.co.uk"><button class="cta"><h3>Send us an Email</h3></button></a>
 		</div>
-		<footer class="all-containers">
-			<p id="smallprint">Copyright &copy2018 Milestone Drones Ltd. All rights reserved.</p>
+
+		<footer class="all-containers" id="footer">
+			<img src="images/logomark.svg" id="footer-logo">
+			<p id="footer-text">Copyright &copy2018 Milestone Drones Ltd. All rights reserved.</p>
 		</footer>
 
 		<script src="code.js"></script>
