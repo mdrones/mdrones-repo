@@ -139,9 +139,11 @@ li.flex-card{
 /*============================================== ID */
 
 #navbar{
-	height: 3.6rem;
-	padding-top: 1rem;
-	padding-bottom: 1rem;
+	/*height: 3.6rem;*/
+	width: 100%;
+	padding: 0.8rem 8vw;
+/*	padding-top: 1.2rem;
+	padding-bottom: 1.2rem;*/
 	background-color: #fff;
 	display: flex;
 	flex-direction: row;
@@ -153,10 +155,10 @@ li.flex-card{
 	transition: all 0.5s ease 0s;
 }
 #main-logo{
-	height: 2.5rem;
+	height: 2.4rem;
 }
 #hero{
-	padding-top: 6rem;
+	padding-top: 7rem;
 }
 #services{
 
