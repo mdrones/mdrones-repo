@@ -43,7 +43,7 @@ h2{
 /*BUTTON TEXT*/
 h3{
 	font-weight: 700;
-	font-size: 1.1rem;
+	font-size: 1rem;
 }
 /*HEADING*/
 h4{
@@ -58,7 +58,7 @@ h5{
 	font-weight: 700;
 	font-size: 0.8rem;
 	text-transform: uppercase;
-	color: #5eb1bf;
+	color: #449dd1;
 }
 h6{
 	margin: 1rem 0 0 0;
@@ -71,7 +71,7 @@ p{
 	font-weight: 400;
 	font-size: 1rem;
 	line-height: 1.4rem;
-	color: #333;
+	color: #71717f;
 }
 iframe{
 	margin: 1em 0;
@@ -84,32 +84,33 @@ video{
 /*============================================== CLASS */
 
 button.cta{
-	border-radius: 4px;
+	border-radius: 2px;
 	margin: 1.2rem 0;
 	padding: 0.8rem 1.6rem;
 	color: #fff;
 	/*background-color: #f79f79;*/
-	background-color: #5eb1bf;
+	background-color: #449dd1;
 	border: none;
 }
 button.cta:hover{
 	cursor: pointer;
-	opacity: 0.8;
+	box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.1);
 }
 button.normal{
 	margin: 1.2rem 0;
 	padding: 0.6rem 1.2rem;
-	border-radius: 4px;
+	border-radius: 2px;
 	color: #fff;
-	background-color: #999;
+	background-color: #aaabbc;
 	border: none;
 }
 button.normal:hover{
 	cursor: pointer;
-	opacity: 0.8;
+	box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.1);
 }
 footer.all-containers{
-	padding: 0rem 8vw;
+	padding: 2rem 8vw 0 8vw;
+	/*background-color: #c7ccdb;*/
 }
 .all-containers{
 	width: 100%;
@@ -126,14 +127,15 @@ li.flex-card{
 	width: 16rem;
 	padding: 1rem;
 	margin: 0.6rem auto;
-	color: #333;
+	color: #71717f;
 	line-height: 1.2rem;
 	text-align: center;
 }
 .placeholder{
 	height: 7rem;
 	width: 7rem;
-	background-color: #f4f4f4;
+	background-color: #aaabbc;
+	opacity: 0.2;
 	margin: 0 auto;
 	margin-bottom: 1rem;
 }
@@ -164,8 +166,8 @@ li.flex-card{
 	right: 0;
 	width: 100%;
 	height: 100%;
-	opacity: 0.25;
-	z-index: -1;
+	opacity: 0.3;
+	z-index: -2;
 	background-image: url('images/sunrise.jpg');
 	background-position: 50% 0;
 	background-repeat: no-repeat;
@@ -203,12 +205,11 @@ li.flex-card{
 	text-align: center;
 	font-size: 0.7rem;
 	font-weight: 400;
-	color: #999;
+	color: #71717f;
 }
 #footer-logo{
 	height: 2rem;
 	display: block;
-	opacity: 0.35;
 	margin: 0 auto;
 }
 
@@ -269,8 +270,8 @@ li.flex-card{
 
 	transform-origin: 4px 0px;
 
-	transition: transform 0.4s cubic-bezier(0.77,0.2,0.05,1.0),
-	        	background 0.4s cubic-bezier(0.77,0.2,0.05,1.0);
+	transition: transform 0.2s cubic-bezier(0.77,0.2,0.05,1.0),
+	        	background 0.2s cubic-bezier(0.77,0.2,0.05,1.0);
 }
 #menuToggle span:first-child{
  	transform-origin: 0% 0%;
@@ -294,7 +295,7 @@ li.flex-card{
 	transform: rotate(-45deg) translate(0, -1px);
 }
 #menuToggle input:hover ~ span{
-	background: #999;
+	background: #aaabbc;
 }
 #menu{
 	position: fixed;
@@ -327,7 +328,7 @@ li.flex-card{
 	color: #999;
 }
 #menu li#current-page{
-	color: #5eb1bf;
+	color: #449dd1;
 }
 /*let's slide it in from the left*/
 #menuToggle input:checked ~ ul{
