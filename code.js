@@ -1,5 +1,6 @@
 // Get new ideas off the ground
 //Certain conditions can make flying impractical, but we always work hard to be flexible in the face of adverse weather.
+// The possibilities are endless, and every project is different - that's why we enjoy what we do.
 
 //https://www.mapsmadeeasy.com/maps/public_3D/4d4d909a162343979289039a76ad1ed0
 //https://www.mapsmadeeasy.com/maps/public_3D/8461da85c242470595e0981eed9e67bd
@@ -8,6 +9,7 @@
 // 	document.getElementById('martello').src = "https://www.mapsmadeeasy.com/maps/public_3D/8461da85c242470595e0981eed9e67bd";
 // }, 8000);
 
+//control whether the 3d model is loaded (src) and displayed (inline)
 function toggleModel(){
 	var heading = document.getElementById('toggle-model-text');
 	var iframe = document.getElementById('martello');
@@ -25,3 +27,17 @@ function toggleModel(){
 		heading.innerHTML = "Show 3D Model";
 	}
 }
+
+//toggle-remove scrollbars when the menu is open to prevent scrolling
+window.onload = toggleScroll();
+function toggleScroll(){
+	var menuOpen = document.getElementById('menu-checkbox').checked;
+	if(menuOpen){
+		document.body.classList.add('no-scroll');
+	}
+	else{
+		document.body.classList.remove('no-scroll');
+	}
+}
+
+// https://www.w3schools.com/howto/howto_js_accordion.asp
