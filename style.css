@@ -369,7 +369,6 @@ ul#menu a:hover li{
  /* Style the buttons that are used to open and close the accordion panel */
 .faq-question {
     background-color: #f4f4f4;
-    color: #444;
     cursor: pointer;
     padding: 1.4rem;
     width: 100%;
@@ -384,12 +383,16 @@ ul#menu a:hover li{
 }
 .faq-question h3{
 	max-width: 60vw;
+	color: #333;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .faq-question:hover {
     background-color: #449dd1;
-    color: white;
+    color: #fff;
+}
+.active, .faq-question:hover h3{
+    color: #fff;
 }
 
 /* Style the accordion panel. Note: hidden by default */
@@ -400,12 +403,14 @@ ul#menu a:hover li{
     overflow: hidden;
 }
 
-.faq-question:after {
-    content: '\02795'; /* Unicode character for "plus" sign (+) */
-    font-size: 0.8rem;
-    color: #777;
-    float: right;
+.faq-question:after { 
+	content: '\002b'; /* Unicode character for "plus" sign (+) */
+	font-size: 1.4rem;
+	/*font-weight: 700;*/
+	float: right;
 }
 .active:after {
-    content: '\2796'; /* Unicode character for "minus" sign (-) */
+    content: '\2212'; /* Unicode character for "minus" sign (-) */
+    color: #fff;
+    opacity: 0.8;
 }
