@@ -1,14 +1,3 @@
-// Get new ideas off the ground
-//Certain conditions can make flying impractical, but we always work hard to be flexible in the face of adverse weather.
-// The possibilities are endless, and every project is different - that's why we enjoy what we do.
-
-//https://www.mapsmadeeasy.com/maps/public_3D/4d4d909a162343979289039a76ad1ed0
-//https://www.mapsmadeeasy.com/maps/public_3D/8461da85c242470595e0981eed9e67bd
-
-// setTimeout(function(){
-// 	document.getElementById('martello').src = "https://www.mapsmadeeasy.com/maps/public_3D/8461da85c242470595e0981eed9e67bd";
-// }, 8000);
-
 //control whether the 3d model is loaded (src) and displayed (inline)
 function toggleModel(){
 	var heading = document.getElementById('toggle-model-text');
@@ -58,4 +47,23 @@ for (i = 0; i < acc.length; i++) {
             panel.style.display = "block";
         }
     });
-} 
+}
+
+//shrink navbar when scrolling
+var logo = document.getElementById('main-logo');
+var navcontent = document.getElementById('navbar-content');
+var atTop = 1;
+window.onscroll = function(){  
+	if((atTop == 1) && (window.scrollY > 200)){
+		logo.src = 'images/wide.svg';
+		logo.style.height = ('1.8rem');
+		navcontent.style.padding = ('0.3rem 6vw');
+		atTop = 0;
+	}
+	else if((atTop == 0) && (window.scrollY < 200)){
+		logo.src = 'images/wide_tagline.svg';
+		logo.style.height = ('2.8rem');
+		navcontent.style.padding = ('0.6rem 6vw');
+		atTop = 1;
+	}
+}

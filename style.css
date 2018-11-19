@@ -152,7 +152,7 @@ li.flex-card{
 }
 #navbar-content{
 	width: 100%;
-	padding: 0.7rem 6vw;
+	padding: 0.6rem 6vw;
 	background-color: #fff;
 	display: flex;
 	flex-direction: row;
@@ -161,14 +161,15 @@ li.flex-card{
 	position: fixed;
 	z-index: 1;
 	top: 0;
-	transition: all 0.5s ease 0s;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);;
+	transition: all 0.2s cubic-bezier(0.77,0.2,0.05,1.0);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 #main-logo{
 	position: relative;
 	top: 5px;
 	height: 2.8rem;
 	cursor: pointer;
+	transition: all 0.2s cubic-bezier(0.77,0.2,0.05,1.0);
 }
 #hero:before{
 	content: '';
@@ -192,8 +193,11 @@ li.flex-card{
 	overflow: hidden;
 }
 #hero{
-	padding-top: 6rem;
-	margin-bottom: 3rem;
+	width: 100%
+}
+#hero-content{
+/*	padding-top: 6rem;
+	margin-bottom: 3rem;*/
 	overflow: hidden;
 	position: relative;
 }
