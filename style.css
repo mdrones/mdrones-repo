@@ -195,7 +195,8 @@ li.flex-card{
 	/*overflow: hidden;*/
 }
 #hero{
-	width: 100%
+	width: 100%;
+	overflow: hidden;
 }
 #hero-content{
 	padding-top: 5rem;
