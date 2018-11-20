@@ -30,14 +30,14 @@ body{
 h1{
 	margin: 1.4rem 0;
 	font-weight: 700;
-	color: #111;
+	color: #0a0a0a;
 	font-size: 2rem;
 }
 /*TITLE SUBHEADING*/
 h2{
 	margin: 1.2rem 0;
 	font-weight: 400;
-	color: #111;
+	color: #0a0a0a;
 	font-size: 1.2rem;
 	line-height: 2rem;
 }
@@ -51,7 +51,7 @@ h4{
 	margin: 1.2rem 0;
 	font-weight: 700;
 	font-size: 1.4rem;
-	color: #111;
+	color: #0a0a0a;
 }
 /*COLOURED SUBHEADING*/
 h5{
@@ -59,20 +59,21 @@ h5{
 	font-weight: 700;
 	font-size: 0.8rem;
 	text-transform: uppercase;
-	color: #688ac3;
+	color: #5299d3;
 }
 h6{
 	margin: 1rem 0 0 0;
 	font-size: 0.8rem;
 	font-weight: 400;
 	opacity: 0.8;
+	color: #686868;
 }
 p{
 	margin: 1rem 0;
 	font-weight: 400;
 	font-size: 1rem;
 	line-height: 1.4rem;
-	color: #71717f;
+	color: #222;
 }
 iframe{
 	margin: 1rem 0;
@@ -93,7 +94,7 @@ button.cta{
 	margin: 1.2rem 0;
 	padding: 0.8rem 1.6rem;
 	color: #fff;
-	background-color: #688ac3;
+	background-color: #5299d3;
 	border: none;
 }
 button.cta:hover{
@@ -105,7 +106,7 @@ button.normal{
 	padding: 0.6rem 1.2rem;
 	border-radius: 2px;
 	color: #fff;
-	background-color: #aaabbc;
+	background-color: #686868;
 	border: none;
 	/*text-decoration: underline;*/
 	/*text-decoration-style: dashed;*/
@@ -133,7 +134,7 @@ li.flex-card{
 	width: 16rem;
 	padding: 1rem;
 	margin: 0.6rem auto;
-	color: #71717f;
+	color: #222;
 	line-height: 1.2rem;
 	text-align: center;
 }
@@ -149,6 +150,7 @@ li.flex-card{
 /*============================================== ID */
 #navbar{
 	width: 100%;
+	z-index: 999;
 }
 #navbar-content{
 	width: 100%;
@@ -167,38 +169,37 @@ li.flex-card{
 #main-logo{
 	position: relative;
 	top: 5px;
-	height: 2.8rem;
+	height: 3rem;
 	cursor: pointer;
 	transition: all 0.2s cubic-bezier(0.77,0.2,0.05,1.0);
 }
-#hero:before{
+#hero-content:before{
 	content: '';
 	display: block;
 	position: absolute;
-	top: 3rem;
-	right: 0;
-	width: 100%;
+	top: 2rem;
+	right: -10vw;
+	left: -10vw;
+	width: 110vw;
 	height: 100%;
 	opacity: 0.3;
 	z-index: -2;
 	background-image: url('images/dronefield.jpg');
-	background-position: 40% 0%;
+	background-position: 40% 10%;
 	background-repeat: no-repeat;
-	background-size: 100%;
 	-ms-background-size: cover;
 	-o-background-size: cover;
 	-moz-background-size: cover;
 	-webkit-background-size: cover;
 	background-size: cover;
-	overflow: hidden;
+	/*overflow: hidden;*/
 }
 #hero{
 	width: 100%
 }
 #hero-content{
-/*	padding-top: 6rem;
-	margin-bottom: 3rem;*/
-	overflow: hidden;
+	padding-top: 5rem;
+	margin-bottom: 3rem;
 	position: relative;
 }
 #services{
@@ -223,16 +224,17 @@ li.flex-card{
 	padding-top: 6rem;
 }
 #footer{
+	background-color: #3a506B;
 }
 #footer-text{
 	margin: 1.2rem 0 1.2rem 0;
 	text-align: center;
 	font-size: 0.7rem;
 	font-weight: 400;
-	color: #71717f;
+	color: #fff;
 }
 #footer-logo{
-	height: 2rem;
+	height: 1.5rem;
 	display: block;
 	margin: 0 auto;
 }
@@ -287,7 +289,7 @@ li.flex-card{
 	position: relative;
 	left: 4px;
 	top: 8px;
-	background: #111;
+	background: #0a0a0a;
 	border-radius: 3px;
 
 	z-index: 1;
@@ -319,7 +321,7 @@ li.flex-card{
 	transform: rotate(-45deg) translate(0, -1px);
 }
 #menuToggle input:hover ~ span{
-	background: #aaabbc;
+	background: #5299d3;
 }
 #menu{
 	position: fixed;
@@ -329,11 +331,11 @@ li.flex-card{
 	left: 0;
 	padding: 50px;
 	display: flex;
-	color: #f4f4f4;
+	color: #fff;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	background: #111;
+	background: #3a506b;
 	list-style-type: none;
 	-webkit-font-smoothing: antialiased;
 	/* to stop flickering of text in safari */
@@ -358,14 +360,15 @@ ul#menu a{
 	transition: box-shadow 0.2s;
 }
 ul#menu a:hover{
-	box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.05);
+	box-shadow: inset 0 0 100px 100px rgba(0,0,0,0.05);
 	transition: box-shadow 0.2s;
 }
 ul#menu a:hover li{
-	color: #688ac3;
+	color: #5299d3;
 }
 #menu li#current-page{
-	color: #666;
+	opacity: 0.5;
+	color: #5299d3;
 }
 /*let's slide it in from the left*/
 #menuToggle input:checked ~ ul{
@@ -394,12 +397,12 @@ ul#menu a:hover li{
 }
 .faq-question h3{
 	max-width: 60vw;
-	color: #111;
+	color: #0a0a0a;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .faq-question:hover {
-    background-color: #688ac3;
+    background-color: #5299d3;
     color: #fff;
 }
 .active, .faq-question:hover h3{
@@ -427,4 +430,16 @@ ul#menu a:hover li{
     content: '\2212'; /* Unicode character for "minus" sign (-) */
     color: #fff;
     opacity: 0.8;
+}
+
+
+
+
+/*============================================== MEDIA QUERIES */
+
+@media only screen and (max-width: 600px) {
+	html{
+		font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width])));
+		font-size: calc(16px + (20 - 16) * ((100vw - 320px) / (1100 - 320)));
+	}
 }

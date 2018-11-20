@@ -1,3 +1,6 @@
+
+
+
 //control whether the 3d model is loaded (src) and displayed (inline)
 function toggleModel(){
 	var heading = document.getElementById('toggle-model-text');
@@ -17,17 +20,37 @@ function toggleModel(){
 	}
 }
 
+
+
 //toggle-remove scrollbars when the menu is open to prevent scrolling
 window.onload = toggleScroll();
 function toggleScroll(){
 	var menuOpen = document.getElementById('menu-checkbox').checked;
 	if(menuOpen){
 		document.body.classList.add('no-scroll');
+		expandNav();
 	}
 	else{
 		document.body.classList.remove('no-scroll');
+		shrinkNav();
 	}
 }
+
+function expandNav(){
+	// logo.src = 'images/wide_tagline.svg';
+	logo.style.height = ('3rem');
+	navcontent.style.padding = ('0.5rem 6vw');
+}
+
+function shrinkNav(){
+	if(atTop == 0){
+		// logo.src = 'images/wide.svg';
+		logo.style.height = ('1.8rem');
+		navcontent.style.padding = ('0.3rem 6vw');
+	}
+}
+
+
 
 // https://www.w3schools.com/howto/howto_js_accordion.asp
 var acc = document.getElementsByClassName('faq-question');
@@ -49,21 +72,23 @@ for (i = 0; i < acc.length; i++) {
     });
 }
 
+
+
 //shrink navbar when scrolling
 var logo = document.getElementById('main-logo');
 var navcontent = document.getElementById('navbar-content');
 var atTop = 1;
 window.onscroll = function(){  
-	if((atTop == 1) && (window.scrollY > 200)){
+	if((atTop == 1) && (window.scrollY > 100)){
 		logo.src = 'images/wide.svg';
 		logo.style.height = ('1.8rem');
 		navcontent.style.padding = ('0.3rem 6vw');
 		atTop = 0;
 	}
-	else if((atTop == 0) && (window.scrollY < 200)){
+	else if((atTop == 0) && (window.scrollY < 100)){
 		logo.src = 'images/wide_tagline.svg';
-		logo.style.height = ('2.8rem');
-		navcontent.style.padding = ('0.6rem 6vw');
+		logo.style.height = ('3rem');
+		navcontent.style.padding = ('0.5rem 6vw');
 		atTop = 1;
 	}
 }
