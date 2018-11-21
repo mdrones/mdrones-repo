@@ -6,9 +6,6 @@
 // 	document.body.classList.add('no-scroll');
 // }, false);
 
-function fak(){
-	document.body.style.backgroundColor = 'red';
-}
 document.body.addEventListener('touchstart', function()){
 	document.body.style.backgroundColor = 'blue';
 };
