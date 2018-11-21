@@ -58,14 +58,15 @@
 					</div>
 					<div class="form-item">
 						<label for="mail">Email</label>
-						<input type="email" id="user-email" name="email" placeholder="Hi@gmail.com" required="required">
+						<input type="email" id="user-email" name="email" required="required">
 					</div>
 					<div class="form-item">
 						<label for="msg">Message</label>
 						<textarea id="user-msg" name="message" placeholder="How can we help?" required="required"></textarea>
 					</div>
 					<div class="form-item">
-					<div data-netlify-recaptcha></div>
+					<p>*All fields are required.</p>
+					<div netlify-recaptcha>Recaptcha</div>
 						<button type="submit" class="cta"><h3>Submit</h3></button>
 					</div>
 				</div>

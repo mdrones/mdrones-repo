@@ -1,4 +1,6 @@
 /*
+RED  #fe4a49
+GREN #23ce6b
 BLUE #5299d3
 NAVY #3a506B
 YELL #e8c547
@@ -110,21 +112,21 @@ input, textarea{
 	padding: 0.4rem;
 	color: #63606b;
 	box-shadow: none;
-
+	background-color: #fff
 	margin: 0 .25rem;
-	border-left: 3px solid;
-	transition: border-color .5s ease-out;
+	border-left: 4px solid;
+	/*transition: border-color .5s ease-out;*/
 }
 input:required, textarea:required{
-	border-left-color: palegreen;
-}
-input:focus, textarea:focus {
-	border: solid #5299d3;
-	color: #222;
+	border-left-color: #23ce6b;
 }
 input:invalid, textarea:invalid {
 	/*border: 1px solid red;*/
-	border-left: 3px solid red;
+	border-left: 3px solid #fe4a49;
+}
+input:focus, textarea:focus {
+	border: 2px solid #5299d3;
+	color: #222;
 }
 textarea {
 	height: 8rem;
