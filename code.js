@@ -148,11 +148,25 @@ for (i = 0; i < faq.length; i++){
 
 
 
-var mart = document.getElementById('martello');
-mart.ontouchmove = function(e){
-	e.preventDefault();
-	document.body.classList.add('no-scroll');
-	document.body.style.overflow = 'hidden';
-	document.body.style.position = 'fixed';
-	document.body.style.height = '100%';
-}
+// var mart = document.getElementById('martello');
+
+// mart.ontouchmove = function(e){
+// 	e.preventDefault();
+// 	document.body.classList.add('no-scroll');
+// 	document.body.style.overflow = 'hidden';
+// 	document.body.style.position = 'fixed';
+// 	document.body.style.height = '100%';
+// }
+
+// mart.ontouchstart = function(e){
+// 	e.preventDefault();
+// 	document.body.classList.add('no-scroll');
+// 	document.body.style.overflow = 'hidden';
+// 	document.body.style.position = 'fixed';
+// 	document.body.style.height = '100%';
+// }
+
+document.body.addEventListener("touchmove", function(event) {
+    event.preventDefault();
+    event.stopPropagation();
+}, false);
