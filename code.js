@@ -121,3 +121,14 @@ for (i = 0; i < faq.length; i++){
 		}
 	};
 }
+
+
+
+
+
+
+var iframe = document.getElementById('martello');
+
+iframe.addEventListener('touchmove', function(e){
+	e.preventDefault();
+}, false);
