@@ -6,16 +6,16 @@
 // 	document.body.classList.add('no-scroll');
 // }, false);
 
-document.body.addEventListener('touchstart', function()){
-	document.body.style.backgroundColor = 'blue';
-};
+// document.body.addEventListener('touchstart', function()){
+// 	document.body.style.backgroundColor = 'blue';
+// };
 
 
 
 
 
 //control whether the 3d model is loaded (src) and displayed (inline)
-function toggleModel(){
+function toggleiFrame(){
 	var heading = document.getElementById('toggle-model-text');
 	var iframe = document.getElementById('martello');
 	if(iframe.src == 'about:blank'){
@@ -134,47 +134,3 @@ for (i = 0; i < faq.length; i++){
 		}
 	};
 }
-
-
-
-
-
-
-
-
-// function bodyScrollOff(e){
-// 	e.preventDefault();
-// 	document.body.classList.add('no-scroll');
-// 	document.body.style.overflow = 'hidden';
-// 	document.body.style.position = 'fixed';
-// 	document.body.style.height = '100%';
-// }
-
-// function bodyScrollOn(){
-// 	document.body.classList.remove('no-scroll');
-// 	document.body.style.overflow = 'visible';
-// 	document.body.style.position = 'initial';
-// 	document.body.style.height = 'auto';
-// }
-
-
-
-
-
-// var mart = document.getElementById('martello');
-
-// mart.ontouchmove = function(e){
-// 	e.preventDefault();
-// 	document.body.classList.add('no-scroll');
-// 	document.body.style.overflow = 'hidden';
-// 	document.body.style.position = 'fixed';
-// 	document.body.style.height = '100%';
-// }
-
-// mart.ontouchstart = function(e){
-// 	e.preventDefault();
-// 	document.body.classList.add('no-scroll');
-// 	document.body.style.overflow = 'hidden';
-// 	document.body.style.position = 'fixed';
-// 	document.body.style.height = '100%';
-// }
