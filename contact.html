@@ -46,11 +46,15 @@
 		<div class="all-containers" id="contactform">
 			<h4>Contact Us</h4>
 			<p>Have a question, idea or project? Let us know.</p>
-			<form action="formsuccess.html" name="contactform" method="post" netlify>
+			<form action="formsuccess.html" name="contactform" method="post" netlify netlify-honeypot="mandatory">
 				<div class="form-content">
 					<div class="form-item">
 						<label for="firstname">First Name</label>
 						<input type="text" id="user-first-name" name="first_name" required="required">
+					</div>
+					<div class="form-item" id="mandatory">
+						<label for="firstname">Middle Name</label>
+						<input type="text" id="user-middle-name" name="mandatory">
 					</div>
 					<div class="form-item">
 						<label for="lastname">Last Name</label>
@@ -66,7 +70,6 @@
 					</div>
 					<div class="form-item">
 					<p>*All fields are required.</p>
-					<div netlify-recaptcha>Recaptcha</div>
 						<button type="submit" class="cta"><h3>Submit</h3></button>
 					</div>
 				</div>
