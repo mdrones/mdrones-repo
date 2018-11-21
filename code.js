@@ -52,6 +52,23 @@ function shrinkNav(){
 
 
 
+
+
+//prevent scrolling when interacting with iframe
+function iFrameScrollOff(){
+	document.body.classList.add('no-scroll');
+}
+//
+function iFrameScrollOn(){
+	document.body.classList.remove('no-scroll');
+}
+
+
+
+
+
+
+
 //shrink navbar when scrolling
 var logo = document.getElementById('main-logo');
 var navcontent = document.getElementById('navbar-content');

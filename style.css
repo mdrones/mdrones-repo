@@ -1,13 +1,10 @@
 /*
-#cacfd6
-#5d576b
-WHTE #eef0f2
 BLUE #5299d3
 NAVY #3a506B
 YELL #e8c547
-GREY #686868
-GREY #222
-DARK #0a0a0a
+MID #bbc1cd
+GREY #63606b
+BLAK #222
 */
 
 /*============================================== RESET */
@@ -42,14 +39,14 @@ body{
 h1{
 	margin: 1.4rem 0;
 	font-weight: 700;
-	color: #222;
+	color: #fff;
 	font-size: 2rem;
 }
 /*TITLE SUBHEADING*/
 h2{
 	margin: 1.2rem 0;
 	font-weight: 400;
-	color: #222;
+	color: #fff;
 	font-size: 1.2rem;
 	line-height: 2rem;
 }
@@ -73,19 +70,50 @@ h5{
 	text-transform: uppercase;
 	color: #5299d3;
 }
-h6{
-	margin: 1rem 0 0 0;
+/*USER INPUT LABELS*/
+/*h6{
+	margin: 0.2rem 0;
 	font-size: 0.8rem;
 	font-weight: 400;
-	opacity: 0.8;
-	color: #5d576b;
-}
+	color: #63606b;
+}*/
 p{
 	margin: 1rem 0;
 	font-weight: 400;
 	font-size: 1rem;
 	line-height: 1.4rem;
-	color: #5d576b;
+	color: #63606b;
+}
+label{
+	display: block;
+	width: 100%;
+	max-width: 40rem;
+	margin: 0.2rem 0;
+	font-size: 1rem;
+	font-weight: 400;
+	color: #63606b;
+	text-align: left;
+}
+form{
+	padding: 0 auto;
+	width: 100%;
+}
+input, textarea{
+	width: 100%;
+	height: 2.5rem;
+	box-sizing: border-box;
+	border: 1px solid #bbc1cd;
+	border-radius: 2px;
+	font-size: 1rem;
+	padding: 0.4rem;
+	color: #63606b;
+}
+input:focus, textarea:focus {
+	border: 2px solid #5299d3;
+	color: #222;
+}
+textarea {
+	height: 8rem;
 }
 iframe{
 	margin: 1rem 0;
@@ -115,13 +143,11 @@ button.cta:hover{
 }
 button.normal{
 	margin: 1.2rem 0;
-	padding: 0.6rem 1.2rem;
+	padding: 0.8rem 1.6rem;
 	border-radius: 2px;
 	color: #fff;
-	background-color: #5d576b;
+	background-color: #bbc1cd;
 	border: none;
-	/*text-decoration: underline;*/
-	/*text-decoration-style: dashed;*/
 }
 button.normal:hover{
 	cursor: pointer;
@@ -130,6 +156,14 @@ button.normal:hover{
 footer.all-containers{
 	padding: 2rem 8vw 0 8vw;
 	/*background-color: #c7ccdb;*/
+}
+.form-content{
+	margin: 0 auto;
+	padding: 0.6rem 0;
+}
+.form-item{
+	margin: 1rem auto;
+	max-width: 40rem;
 }
 .all-containers{
 	width: 100%;
@@ -150,11 +184,18 @@ li.flex-card{
 	line-height: 1.2rem;
 	text-align: center;
 }
+li.flex-card p{
+	margin: 1rem 0 0 0;
+	font-size: 0.8rem;
+	font-weight: 400;
+	/*opacity: 0.8;*/
+	color: #63606b;
+}
 .placeholder{
 	height: 7rem;
 	width: 7rem;
-	background-color: #aaabbc;
-	opacity: 0.2;
+	background-color: #bbc1cd;
+	opacity: 0.3;
 	margin: 0 auto;
 	margin-bottom: 1rem;
 }
@@ -190,21 +231,38 @@ li.flex-card{
 	display: block;
 	position: absolute;
 	top: 2rem;
-	right: -10vw;
+	right: 0;
 	left: -10vw;
 	width: 110vw;
 	height: 100%;
-	opacity: 0.3;
+	opacity: 0.4;
 	z-index: -2;
-	background-image: url('images/dronefield.jpg');
-	background-position: 40% 10%;
+	background-image: url('images/stock2.jpg');
+	background-position: 0% 40%;
 	background-repeat: no-repeat;
 	-ms-background-size: cover;
 	-o-background-size: cover;
 	-moz-background-size: cover;
 	-webkit-background-size: cover;
 	background-size: cover;
-	/*overflow: hidden;*/
+}
+#hero-content:after{
+	content: '';
+	display: block;
+	position: absolute;
+	top: 2rem;
+	right: -10vw;
+	left: -10vw;
+	width: 110vw;
+	height: 100%;
+	opacity: 1;
+	z-index: -3;
+	-ms-background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-color: #3a506B;
 }
 #hero{
 	width: 100%;
@@ -302,7 +360,7 @@ li.flex-card{
 	position: relative;
 	left: 4px;
 	top: 8px;
-	background: #0a0a0a;
+	background: #222;
 	border-radius: 3px;
 
 	z-index: 1;
@@ -397,7 +455,8 @@ ul#menu a:hover li{
 .faq-question {
     background-color: #eef0f2;
     cursor: pointer;
-    padding: 1.4rem;
+    margin-top: 0.4rem;
+    padding: 0.8rem 1.2rem;
     width: 100%;
     text-align: left;
     border: none;
@@ -410,7 +469,7 @@ ul#menu a:hover li{
 }
 .faq-question h3{
 	max-width: 60vw;
-	color: #0a0a0a;
+	color: #63606b;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -424,7 +483,7 @@ ul#menu a:hover li{
 
 /* Style the accordion panel. Note: hidden by default */
 .faq-answer {
-    padding: 0.6rem 1.4rem 0.8rem 1.4rem;
+    padding: 0.6rem 1.2rem 0.8rem 1.2rem;
     background-color: #fff;
     display: none;
     overflow: hidden;

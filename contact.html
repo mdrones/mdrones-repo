@@ -3,47 +3,71 @@
 	<head lang="en-GB">
 		<style> html{display: none;} </style>
 		<meta charset="utf-8">
-		<link rel="icon" href="favicon.ico">
+
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+		<!-- <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"> -->
+		<link rel="manifest" href="/site.webmanifest">
+		<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#222222">
+		<meta name="msapplication-TileColor" content="#e8c547">
+		<meta name="theme-color" content="#ffffff">
+		<link rel="icon" href="favicon.ico" type="image/x-icon"> 
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="Milestone Drones Ltd - CAA approved, fully insured provider of affordable aerial photography, videography, surveying and inspection in East Sussex and the UK.">
-		<meta name="theme-color" content="#449dd1" />
-		<title>Contact Us — Milestone Drones</title>
+		<meta name="theme-color" content="#5299d3" />
+		<title>Milestone Drones — Aerial Photography Filming and Surveying</title>
 		<link href="https://fonts.googleapis.com/css?family=Hind+Madurai:400,700" rel="stylesheet">
 	</head>
 	<body>
 		<div id="navbar">
-			<a href="index.html"><img src="images/wide_full.svg" alt="Milestone Drones Logo" id="main-logo"></a>
+			<div id="navbar-content">
+				<a href="index.html"><img src="images/wide_tagline.svg" alt="Milestone Drones Logo" id="main-logo"></a>
 
-			 <div id="menuToggle">
-				<!--a fake / hidden checkbox is used as click reciever, so you can use the :checked selector on it-->
-				<input type="checkbox" id="menu-checkbox" onclick="toggleScroll()" />
+				<div id="menuToggle">
+					<!--a fake / hidden checkbox is used as click reciever, so you can use the :checked selector on it-->
+					<input type="checkbox" id="menu-checkbox" onclick="toggleScroll()" />
 
-				<!--some spans to act as a hamburger-->
-				<span></span>
-				<span></span>
-				<span></span>
+					<!--some spans to act as a hamburger-->
+					<span></span>
+					<span></span>
+					<span></span>
 
-				<ul id="menu">
-					<a href="index.html"><li>Home</li></a>
-					<a href="faq.html"><li id="current-page">FAQ</li></a>
-					<a href="mailto:info@milestonedrones.co.uk"><li>Contact Us</li></a>
-				</ul>
-			  </div>
-
+					<ul id="menu">
+						<a href="index.html"><li id="current-page">Home</li></a>
+						<a href="faq.html"><li>FAQ</li></a>
+						<a href="contact.html"><li>Contact Us</li></a>
+					</ul>
+				</div>
+			</div>
 		</div>
+
 		<div class="all-containers" id="contactform">
 			<h4>Contact Us</h4>
-			<form action="/action_page.php">
-				First Name:<br>
-				<input type="text" name="firstname" value="">
-				<br><br>
-				Last Name:<br>
-				<input type="text" name="lastname" value="">
-				<br><br>
-				Message:<br>
-				<input type="text" name="lastname" value="">
-				<br><br>
-				<input type="submit" value="Submit" class="cta">
+			<p>Have a question, idea or project? Let us know.</p>
+			<form action="/nope" method="post">
+				<div class="form-content">
+					<div class="form-item">
+						<label for="name">First Name</label>
+						<input type="text" id="firstname" name="first_name">
+					</div>
+					<div class="form-item">
+						<label for="name">Last Name</label>
+						<input type="text" id="lastname" name="last_name">
+					</div>
+					<div class="form-item">
+						<label for="mail">Email</label>
+						<input type="email" id="mail" name="user_mail">
+					</div>
+					<div class="form-item">
+						<label for="msg">Message</label>
+						<textarea id="msg" name="user_message" placeholder="How can we help?"></textarea>
+					</div>
+					<div class="form-item">
+						<button type="submit" class="cta"><h3>Submit</h3></button>
+					</div>
+				</div>
 			</form> 
 		</div>
 
