@@ -166,7 +166,8 @@ for (i = 0; i < faq.length; i++){
 // 	document.body.style.height = '100%';
 // }
 
-document.body.addEventListener("touchmove", function(event) {
+var mart = document.getElementById('martello');
+mart.addEventListener('touchmove', function(event) {
     event.preventDefault();
     event.stopPropagation();
 }, false);
