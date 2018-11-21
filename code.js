@@ -135,6 +135,8 @@ function bodyScrollOff(){
 	// var iframe = document.getElementById('martello');
 	// iframe.style.position = 'fixed';
 	document.body.classList.add('no-scroll');
+	document.body.style.overflow = 'hidden';
+	document.body.style.position = 'fixed';
 }
 
 function bodyScrollOn(){
@@ -142,4 +144,6 @@ function bodyScrollOn(){
 	// body.style.overflow = 'auto';
 	// var body = document.getElementById('martello');
 	document.body.classList.remove('no-scroll');
+	document.body.style.overflow = 'visible';
+	document.body.style.position = 'initial';
 }
