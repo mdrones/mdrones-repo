@@ -130,14 +130,16 @@ for (i = 0; i < faq.length; i++){
 
 
 function bodyScrollOff(){
-	var body = document.getElementsByTagName('body');
-	body.style.overflow = 'hidden';
+	// var body = document.getElementsByTagName('body');
+	// body.style.overflow = 'hidden';
 	// var iframe = document.getElementById('martello');
 	// iframe.style.position = 'fixed';
+	document.body.classList.add('no-scroll');
 }
 
 function bodyScrollOn(){
-	var x = document.getElementsByTagName('body');
-	body.style.overflow = 'auto';
+	// var x = document.getElementsByTagName('body');
+	// body.style.overflow = 'auto';
 	// var body = document.getElementById('martello');
+	document.body.classList.remove('no-scroll');
 }
