@@ -39,6 +39,7 @@ body{
 	justify-content: space-between;
 	min-height: 100vh;
 	height: auto;
+	background-color: gold;
 }
 /*TITLE*/
 h1{
