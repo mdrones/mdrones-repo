@@ -127,8 +127,17 @@ for (i = 0; i < faq.length; i++){
 
 
 
-// var iframe = document.getElementById('martello');
 
-// iframe.addEventListener('touchmove', function(e){
-// 	e.preventDefault();
-// }, false);
+
+function bodyScrollOff(){
+	var body = document.getElementsByTagName('body');
+	x.style.overflow = 'hidden';
+	// var iframe = document.getElementById('martello');
+	// iframe.style.position = 'fixed';
+}
+
+function bodyScrollOn(){
+	var x = document.getElementsByTagName('body');
+	x.style.overflow = 'auto';
+	// var body = document.getElementById('martello');
+}
