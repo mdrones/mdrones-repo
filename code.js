@@ -144,8 +144,12 @@ for (i = 0; i < faq.length; i++){
 // 	document.body.style.height = 'auto';
 // }
 
+
+
+
+
 var mart = document.getElementById('martello');
-mart.onscroll = function(e){
+mart.ontouchmove = function(e){
 	e.preventDefault();
 	document.body.classList.add('no-scroll');
 	document.body.style.overflow = 'hidden';
