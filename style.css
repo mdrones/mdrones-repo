@@ -1,3 +1,15 @@
+/*
+#cacfd6
+#5d576b
+WHTE #eef0f2
+BLUE #5299d3
+NAVY #3a506B
+YELL #e8c547
+GREY #686868
+GREY #222
+DARK #0a0a0a
+*/
+
 /*============================================== RESET */
 
 *{
@@ -30,14 +42,14 @@ body{
 h1{
 	margin: 1.4rem 0;
 	font-weight: 700;
-	color: #0a0a0a;
+	color: #222;
 	font-size: 2rem;
 }
 /*TITLE SUBHEADING*/
 h2{
 	margin: 1.2rem 0;
 	font-weight: 400;
-	color: #0a0a0a;
+	color: #222;
 	font-size: 1.2rem;
 	line-height: 2rem;
 }
@@ -51,7 +63,7 @@ h4{
 	margin: 1.2rem 0;
 	font-weight: 700;
 	font-size: 1.4rem;
-	color: #0a0a0a;
+	color: #222;
 }
 /*COLOURED SUBHEADING*/
 h5{
@@ -66,14 +78,14 @@ h6{
 	font-size: 0.8rem;
 	font-weight: 400;
 	opacity: 0.8;
-	color: #686868;
+	color: #5d576b;
 }
 p{
 	margin: 1rem 0;
 	font-weight: 400;
 	font-size: 1rem;
 	line-height: 1.4rem;
-	color: #222;
+	color: #5d576b;
 }
 iframe{
 	margin: 1rem 0;
@@ -106,7 +118,7 @@ button.normal{
 	padding: 0.6rem 1.2rem;
 	border-radius: 2px;
 	color: #fff;
-	background-color: #686868;
+	background-color: #5d576b;
 	border: none;
 	/*text-decoration: underline;*/
 	/*text-decoration-style: dashed;*/
@@ -383,7 +395,7 @@ ul#menu a:hover li{
 
  /* Style the buttons that are used to open and close the accordion panel */
 .faq-question {
-    background-color: #f4f4f4;
+    background-color: #eef0f2;
     cursor: pointer;
     padding: 1.4rem;
     width: 100%;
@@ -431,6 +443,8 @@ ul#menu a:hover li{
     content: '\2212'; /* Unicode character for "minus" sign (-) */
     color: #fff;
     opacity: 0.8;
+    position: relative;
+    top: -1px;
 }
 
 
@@ -438,9 +452,9 @@ ul#menu a:hover li{
 
 /*============================================== MEDIA QUERIES */
 
-@media only screen and (max-width: 600px) {
+/*@media only screen and (max-width: 600px) {
 	html{
 		font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width])));
 		font-size: calc(16px + (20 - 16) * ((100vw - 320px) / (1100 - 320)));
 	}
-}
+}*/

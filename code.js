@@ -52,28 +52,6 @@ function shrinkNav(){
 
 
 
-// https://www.w3schools.com/howto/howto_js_accordion.asp
-var acc = document.getElementsByClassName('faq-question');
-var i;
-
-for (i = 0; i < acc.length; i++) {
-    acc[i].addEventListener("click", function() {
-        /* Toggle between adding and removing the "active" class,
-        to highlight the button that controls the panel */
-        this.classList.toggle("active");
-
-        /* Toggle between hiding and showing the active panel */
-        var panel = this.nextElementSibling;
-        if (panel.style.display === "block") {
-            panel.style.display = "none";
-        } else {
-            panel.style.display = "block";
-        }
-    });
-}
-
-
-
 //shrink navbar when scrolling
 var logo = document.getElementById('main-logo');
 var navcontent = document.getElementById('navbar-content');
@@ -91,4 +69,38 @@ window.onscroll = function(){
 		navcontent.style.padding = ('0.5rem 6vw');
 		atTop = 1;
 	}
+}
+
+
+
+// faq accordion
+var faq = document.getElementsByClassName('faq-question');
+var i,j,isActive = 0;
+
+for (i = 0; i < faq.length; i++){
+	faq[i].onclick = function(){
+		
+		//determine if clicked faq is already active
+		isActive = this.classList.contains("active");
+		//get answer element for clicked faq
+		var answer = this.nextElementSibling;
+
+		if(isActive){
+			//remove active class from clicked faq
+			this.classList.remove('active');
+			//hide answer
+			answer.style.display = 'none';
+		}
+		else{
+			//close all faqs
+			for (j = 0; j < faq.length; j++) {
+				faq[j].classList.remove('active');
+				faq[j].nextElementSibling.style.display = 'none';
+			}
+			//add active class to clicked faq
+			this.classList.toggle('active');
+			//display answer
+			answer.style.display = 'block';
+		}
+	};
 }
