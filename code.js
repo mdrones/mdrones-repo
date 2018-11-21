@@ -1,3 +1,15 @@
+var mart = document.getElementById('martello');
+mart.addEventListener('touchmove', function(event){
+	event.preventDefault();
+	event.stopPropagation();
+	document.body.classList.add('no-scroll');
+	document.body.style.overflow = 'hidden';
+	document.body.style.position = 'fixed';
+	document.body.style.height = '100%';
+}, false);
+
+
+
 
 
 
@@ -165,9 +177,3 @@ for (i = 0; i < faq.length; i++){
 // 	document.body.style.position = 'fixed';
 // 	document.body.style.height = '100%';
 // }
-
-var mart = document.getElementById('martello');
-mart.addEventListener('touchmove', function(event) {
-    event.preventDefault();
-    event.stopPropagation();
-}, false);
