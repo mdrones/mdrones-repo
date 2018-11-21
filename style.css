@@ -109,10 +109,22 @@ input, textarea{
 	font-size: 1rem;
 	padding: 0.4rem;
 	color: #63606b;
+	box-shadow: none;
+
+	margin: 0 .25rem;
+	border-left: 3px solid;
+	transition: border-color .5s ease-out;
+}
+input:required, textarea:required{
+	border-left-color: palegreen;
 }
 input:focus, textarea:focus {
-	border: 2px solid #5299d3;
+	border: solid #5299d3;
 	color: #222;
+}
+input:invalid, textarea:invalid {
+	/*border: 1px solid red;*/
+	border-left: 3px solid red;
 }
 textarea {
 	height: 8rem;
@@ -166,6 +178,9 @@ footer.all-containers{
 .form-item{
 	margin: 1rem auto;
 	max-width: 40rem;
+}
+.page-content{
+
 }
 .all-containers{
 	width: 100%;
@@ -294,6 +309,9 @@ li.flex-card p{
 	padding-top: 6rem;
 }
 #contactform{
+	padding-top: 6rem;
+}
+#form-success{
 	padding-top: 6rem;
 }
 #footer{
