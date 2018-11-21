@@ -86,7 +86,7 @@ window.onscroll = function(){
 		navcontent.style.padding = ('0.5rem 6vw');
 		atTop = 1;
 	}
-}
+};
 
 
 
@@ -129,21 +129,17 @@ for (i = 0; i < faq.length; i++){
 
 
 
-function bodyScrollOff(){
-	// var body = document.getElementsByTagName('body');
-	// body.style.overflow = 'hidden';
-	// var iframe = document.getElementById('martello');
-	// iframe.style.position = 'fixed';
+function bodyScrollOff(e){
+	e.preventDefault();
 	document.body.classList.add('no-scroll');
 	document.body.style.overflow = 'hidden';
 	document.body.style.position = 'fixed';
+	document.body.style.height = '100%';
 }
 
 function bodyScrollOn(){
-	// var x = document.getElementsByTagName('body');
-	// body.style.overflow = 'auto';
-	// var body = document.getElementById('martello');
 	document.body.classList.remove('no-scroll');
 	document.body.style.overflow = 'visible';
 	document.body.style.position = 'initial';
+	document.body.style.height = 'auto';
 }
