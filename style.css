@@ -39,7 +39,7 @@ body{
 	justify-content: space-between;
 	min-height: 100vh;
 	height: auto;
-	background-color: gold;
+	background-color: #fff;
 }
 /*TITLE*/
 h1{
@@ -117,6 +117,7 @@ input, textarea{
 	background-color: #fff
 	margin: 0 .25rem;
 	border-left: 4px solid;
+	line-height: 1.4rem;
 	/*transition: border-color .5s ease-out;*/
 }
 input:required, textarea:required{
@@ -124,7 +125,7 @@ input:required, textarea:required{
 }
 input:invalid, textarea:invalid {
 	/*border: 1px solid red;*/
-	border-left: 3px solid #fe4a49;
+	border-left: 4px solid #fe4a49;
 }
 input:focus, textarea:focus {
 	border: 2px solid #5299d3;
@@ -132,6 +133,10 @@ input:focus, textarea:focus {
 }
 textarea {
 	height: 8rem;
+}
+::placeholder{
+	color: #bbc1cd;
+	opacity: 1;
 }
 iframe{
 	margin: 1rem 0;
