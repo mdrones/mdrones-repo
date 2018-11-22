@@ -125,7 +125,7 @@ input:required, textarea:required{
 }
 input:invalid, textarea:invalid {
 	/*border: 1px solid red;*/
-	border-left: 4px solid #fe4a49;
+	border-left: 4px solid #bbc1cd;
 }
 input:focus, textarea:focus {
 	border: 2px solid #5299d3;
