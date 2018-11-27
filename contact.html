@@ -3,7 +3,7 @@
 	<head lang="en-GB">
 		<style> html{display: none;} </style>
 		<meta charset="utf-8">
-
+		<link rel="stylesheet" type="text/css" href="style.css">
 		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 		<!-- <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"> -->
@@ -21,19 +21,16 @@
 		<link href="https://fonts.googleapis.com/css?family=Hind+Madurai:400,700" rel="stylesheet">
 	</head>
 	<body>
-		<div id="navbar">
+<!-- navbar container -->
+		<div id="navbar-container">
+<!-- navbar content -->
 			<div id="navbar-content">
-				<a href="index.html"><img src="images/wide_tagline.svg" alt="Milestone Drones Logo" id="main-logo"></a>
-
+				<a href="index.html"><img src="images/wide_tagline.svg" alt="Milestone Drones Logo" id="nav-logo"></a>
 				<div id="menuToggle">
-					<!--a fake / hidden checkbox is used as click reciever, so you can use the :checked selector on it-->
 					<input type="checkbox" id="menu-checkbox" onclick="toggleScroll()" />
-
-					<!--some spans to act as a hamburger-->
 					<span></span>
 					<span></span>
 					<span></span>
-
 					<ul id="menu">
 						<a href="index.html"><li>Home</li></a>
 						<a href="faq.html"><li>FAQ</li></a>
@@ -43,44 +40,49 @@
 			</div>
 		</div>
 
-		<div class="all-containers" id="contactform">
-			<h4>Contact Us</h4>
-			<p>Have a question, idea or project? Let us know.</p>
-			<form action="formsuccess.html" name="contactform" method="post" netlify netlify-honeypot="mandatory">
-				<div class="form-content">
-					<div class="form-item">
-						<label for="firstname">First Name</label>
-						<input type="text" id="firstname" name="first_name" required="required">
+		<div id="contactform-container" class="container">
+			<div id="contactform-content" class="content">
+				<h4>Contact Us</h4>
+				<p>Have a question, idea or project? Let us know.</p>
+				<form action="formsuccess.html" name="contactform" method="post" netlify netlify-honeypot="mandatory">
+					<div class="form-content">
+						<div class="form-item">
+							<label for="firstname">First Name</label>
+							<input type="text" id="firstname" name="first_name" required="required">
+						</div>
+						<div class="form-item" id="mandatory">
+							<label for="middlename">Middle Name</label>
+							<input type="text" id="middlename" name="mandatory">
+						</div>
+						<div class="form-item">
+							<label for="lastname">Last Name</label>
+							<input type="text" id="lastname" name="last_name" required="required">
+						</div>
+						<div class="form-item">
+							<label for="mail">Email</label>
+							<input type="email" id="mail" name="email" required="required">
+						</div>
+						<div class="form-item">
+							<label for="msg">Message</label>
+							<textarea id="msg" name="message" placeholder="How can we help?" required="required"></textarea>
+						</div>
+						<div class="form-item">
+						<p>*All fields are required.</p>
+							<button type="submit" class="cta"><h3>Submit</h3></button>
+						</div>
 					</div>
-					<div class="form-item" id="mandatory">
-						<label for="middlename">Middle Name</label>
-						<input type="text" id="middlename" name="mandatory">
-					</div>
-					<div class="form-item">
-						<label for="lastname">Last Name</label>
-						<input type="text" id="lastname" name="last_name" required="required">
-					</div>
-					<div class="form-item">
-						<label for="mail">Email</label>
-						<input type="email" id="mail" name="email" required="required">
-					</div>
-					<div class="form-item">
-						<label for="msg">Message</label>
-						<textarea id="msg" name="message" placeholder="How can we help?" required="required"></textarea>
-					</div>
-					<div class="form-item">
-					<p>*All fields are required.</p>
-						<button type="submit" class="cta"><h3>Submit</h3></button>
-					</div>
-				</div>
-			</form> 
+				</form> 
+			</div>
 		</div>
 
-		<footer class="all-containers" id="footer">
-			<img src="images/logomark.svg" id="footer-logo">
-			<p id="footer-text">Copyright &copy2018 Milestone Drones Ltd. All rights reserved.</p>
+<!-- footer container -->
+		<footer id="footer-container">
+<!-- footer content -->
+			<div id="footer-content">
+				<img src="images/logomark.svg" id="footer-logo">
+				<p id="footer-text">Copyright &copy2018 Milestone Drones Ltd. All rights reserved.</p>
+			</div>
 		</footer>
-		<link rel="stylesheet" type="text/css" href="style.css">
 		<script src="code.js"></script>
 	</body>
 </html>

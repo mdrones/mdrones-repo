@@ -3,7 +3,7 @@
 	<head lang="en-GB">
 		<style> html{display: none;} </style>
 		<meta charset="utf-8">
-
+		<link rel="stylesheet" type="text/css" href="style.css">
 		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 		<!-- <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"> -->
@@ -21,19 +21,16 @@
 		<link href="https://fonts.googleapis.com/css?family=Hind+Madurai:400,700" rel="stylesheet">
 	</head>
 	<body>
-		<div id="navbar"">
+<!-- navbar container -->
+		<div id="navbar-container">
+<!-- navbar content -->
 			<div id="navbar-content">
-				<a href="index.html"><img src="images/wide_tagline.svg" alt="Milestone Drones Logo" id="main-logo"></a>
-
+				<a href="index.html"><img src="images/wide_tagline.svg" alt="Milestone Drones Logo" id="nav-logo"></a>
 				<div id="menuToggle">
-					<!--a fake / hidden checkbox is used as click reciever, so you can use the :checked selector on it-->
 					<input type="checkbox" id="menu-checkbox" onclick="toggleScroll()" />
-
-					<!--some spans to act as a hamburger-->
 					<span></span>
 					<span></span>
 					<span></span>
-
 					<ul id="menu">
 						<a href="index.html"><li>Home</li></a>
 						<a href="faq.html"><li id="current-page">FAQ</li></a>
@@ -42,63 +39,70 @@
 				</div>
 			</div>
 		</div>
-		<div class="all-containers" id="faqs">
-			<h4>Frequently Asked Questions</h4>
-			<button class="faq-question"><h3>Do you have permission to fly commercially?</h3></button>
-			<div class="faq-answer">
-				<p>
-					Yes, our pilots are fully qualified and possess a PfCO. A PfCO is a Permission for Commercial Operation. It is awarded by the Civil Aviation Authority only after a pilot has proven, through written and practical examination, that they are competent enough to operate a commercial drone.
-				</p>
+		<div id="faq-container" class="container">
+			<div id="faq-content" class="content">
+				<h4>Frequently Asked Questions</h4>
+				<button class="faq-question"><h3>Do you have permission to fly commercially?</h3></button>
+				<div class="faq-answer">
+					<p>
+						Yes, our pilots are fully qualified and possess a PfCO. PfCO stands for Permission for Commercial Operation. This permission is awarded by the Civil Aviation Authority only after a pilot has proven, through written and practical examination, that they are competent enough to operate a commercial drone.
+					</p>
+				</div>
+
+				<button class="faq-question"><h3>What does your insurance cover?</h3></button>
+				<div class="faq-answer">
+					<p>
+						Our 3rd party liability ranges from £1M and £5M, depending on the requirements of the project. We are insured for every single flight.
+					</p>
+				</div> 
+
+				<button class="faq-question"><h3>Can you fly in bad weather?</h3></button>
+				<div class="faq-answer">
+					<p>
+						Drones are remarkably sturdy, but will struggle to fly reliably in winds above 21mph. In addition, to keep our sensitive equipment dry, we do not operate in rain or thick fog. Because the weather can be unpredictable, a degree of flexibility is always an advantage when scheduling flights.
+					</p>
+				</div>
+
+				<button class="faq-question"><h3>Can you fly at night?</h3></button>
+				<div class="faq-answer">
+					<p>
+						Yes, subject to suitable weather conditions and an on-site survey being undertaken during
+						daylight hours.
+					</p>
+				</div>
+
+				<button class="faq-question"><h3>Will I be able to speak with the pilot during the flight?</h3></button>
+				<div class="faq-answer">
+					<p>
+						Yes. You are very welcome to discuss things with the pilot during the flight, and to see what the drone is seeing while it's in the air. Our pilots appreciate any guidance that helps them to more closely meet your objectives, but know how to get the job done if you're not around.
+					</p>
+				</div> 
+
+				<button class="faq-question"><h3>How long can you fly for?</h3></button>
+				<div class="faq-answer">
+					<p>
+						Our drones can typically stay airborne for around 20 minutes before a quick battery change is required. This figure can vary slightly depending on how hard the drone is working, but we carry plenty of batteries.
+					</p>
+				</div> 
 			</div>
-
-			<button class="faq-question"><h3>What does your insurance cover?</h3></button>
-			<div class="faq-answer">
-				<p>
-					Our 3rd party liability is typically between £1M and £5M depending on the requirements of the project. We are insured for every single flight.
-				</p>
-			</div> 
-
-			<button class="faq-question"><h3>Can you fly in bad weather?</h3></button>
-			<div class="faq-answer">
-				<p>
-					Drones are remarkably sturdy, but will struggle to fly reliably in winds above 21mph. In addition, to keep our sensitive equipment dry, we do not operate in rain, sleet or thick fog. Because the weather can be unpredictable, a degree of flexibility is always an advantage when scheduling flights.
-				</p>
-			</div>
-
-			<button class="faq-question"><h3>Can you fly at night?</h3></button>
-			<div class="faq-answer">
-				<p>
-					Yes, subject to suitable weather conditions and an on-site survey being undertaken during
-					daylight hours.
-				</p>
-			</div>
-
-			<button class="faq-question"><h3>Will I be able to discuss things with the pilot?</h3></button>
-			<div class="faq-answer">
-				<p>
-					Yes. It is almost always possible for you to communicate with the pilot during the flight, and to see what the drone is seeing in real-time.
-				</p>
-			</div> 
-
-			<button class="faq-question"><h3>How long can you fly for?</h3></button>
-			<div class="faq-answer">
-				<p>
-					Our drones can typically stay airborne for around 20 minutes before a quick battery change is required. Depending on the weather and camera requirements, this figure may vary slightly, but we carry plenty of batteries.
-				</p>
-			</div> 
 		</div>
 
-		<div class="all-containers" id="cta">
-			<h4>Still have questions?</h4>
-			<p>Please get in touch and we'll reply as soon as we can:</p>
-			<a href="contact.html"><button class="cta"><h3>Ask a Question</h3></button></a>
+		<div id="cta-container" class="container">
+			<div id="cta-content" class="content">
+				<h4>Have a question of your own?</h4>
+				<p>Please get in touch and we'll reply as soon as we can:</p>
+				<a href="contact.html"><button class="cta"><h3>Ask a Question</h3></button></a>
+			</div>
 		</div>
 
-		<footer class="all-containers" id="footer">
-			<img src="images/logomark.svg" id="footer-logo">
-			<p id="footer-text">Copyright &copy2018 Milestone Drones Ltd. All rights reserved.</p>
+<!-- footer container -->
+		<footer id="footer-container">
+<!-- footer content -->
+			<div id="footer-content">
+				<img src="images/logomark.svg" id="footer-logo">
+				<p id="footer-text">Copyright &copy2018 Milestone Drones Ltd. All rights reserved.</p>
+			</div>
 		</footer>
-		<link rel="stylesheet" type="text/css" href="style.css">
 		<script src="code.js"></script>
 	</body>
 </html>

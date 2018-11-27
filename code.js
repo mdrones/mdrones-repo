@@ -83,7 +83,7 @@ function iFrameScrollOn(){
 
 
 //shrink navbar when scrolling
-var logo = document.getElementById('main-logo');
+var logo = document.getElementById('nav-logo');
 var navcontent = document.getElementById('navbar-content');
 var atTop = 1;
 window.onscroll = function(){  

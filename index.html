@@ -3,7 +3,7 @@
 	<head lang="en-GB">
 		<style> html{display: none;} </style>
 		<meta charset="utf-8">
-
+		<link rel="stylesheet" type="text/css" href="style.css">
 		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 		<!-- <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"> -->
@@ -21,19 +21,17 @@
 		<link href="https://fonts.googleapis.com/css?family=Hind+Madurai:400,700" rel="stylesheet">
 	</head>
 	<body>
-		<div id="navbar">
+<!-- navbar container -->
+		<div id="navbar-container">
+<!-- navbar content -->
 			<div id="navbar-content">
-				<a href="index.html"><img src="images/wide_tagline.svg" alt="Milestone Drones Logo" id="main-logo"></a>
-
+				<a href="index.html"><img src="images/wide_tagline.svg" alt="Milestone Drones Logo" id="nav-logo"></a>
+				<p id="promo">Get 10% off your first project with us before the end of 2018!</p>
 				<div id="menuToggle">
-					<!--a fake / hidden checkbox is used as click reciever, so you can use the :checked selector on it-->
 					<input type="checkbox" id="menu-checkbox" onclick="toggleScroll()" />
-
-					<!--some spans to act as a hamburger-->
 					<span></span>
 					<span></span>
 					<span></span>
-
 					<ul id="menu">
 						<a href="index.html"><li id="current-page">Home</li></a>
 						<a href="faq.html"><li>FAQ</li></a>
@@ -42,95 +40,124 @@
 				</div>
 			</div>
 		</div>
-		<div class="all-containers" id="hero">
-			<div id="hero-content">
+<!-- hero container -->
+		<div id="hero-container" class="container">
+<!-- hero content -->
+			<div id="hero-content" class="content">
 				<h1>We help people and businesses to benefit from professional drone photography.</h1>
 				<h2>Whether you want to change the way the world views your business, capture the lay of the land or immortalise a special occasion, we're proud to offer a unique and affordable aerial perspective.</h2>
 				<a href="contact.html"><button class="cta"><h3>Enquire Today</h3></button></a>
 			</div>
 		</div>
-		<div class="all-containers" id="safety">
-			<h4>CAA approved and fully insured</h4>
-			<p>Our professional pilots take your safety and satisfaction seriously, and are always happy to answer any questions you may have.</p>
-			<a href="faq.html"><button class="normal"><h3>Browse the FAQ</h3></button></a>
+<!-- safety-container -->
+		<div id="safety-container" class="container">
+<!-- safety-content -->
+			<div id="safety-content" class="content">
+				<h4>CAA approved and fully insured</h4>
+				<p>Our professional pilots take your safety and satisfaction seriously, and are always happy to answer any questions you may have.</p>
+				<a href="faq.html"><button class="normal"><h3>Read FAQ's</h3></button></a>
+			</div>
 		</div>
-		<div class="all-containers" id="services">
-			<h4>Make our drones your secret weapon</h4>
-			<p>With stabilised video capture at up to 4K UHD, you'll be suprised by what you can achieve:</p>
-			<ul class="flex-grid">
-				<li class="flex-card">
-					<div class="placeholder"></div>
-					<p>Shoot memorable promotional footage for your sports team, event, business or real estate</p>
-				</li>
-				<li class="flex-card">
-					<div class="placeholder"></div>
-					<p>Create high fidelity maps and models of geography and architecture in 2D and 3D</p>
-				</li>
-				<li class="flex-card">
-					<div class="placeholder"></div>
-					<p>Inspect and measure buildings, chimneys, roofs, turbines and other hard to reach places</p>
-				</li>
-				<li class="flex-card">
-					<div class="placeholder"></div>
-					<p>Perform thermal imaging surveys to monitor wildlife and inspect solar farms</p>
-				</li>
-				<li class="flex-card">
-					<div class="placeholder"></div>
-					<p>Document progress on construction projects of any size</p>
-				</li>
-				<li class="flex-card">
-					<div class="placeholder"></div>
-					<p>Shoot the photos and footage you need to make a splash</p>
-				</li>	
-			</ul>
+		<hr>
+<!-- services container -->
+		<div id="services-container" class="container">
+<!-- services content -->
+			<div id="services-content" class="content">
+				<h4>Make our drones your secret weapon</h4>
+				<p>With stabilised video capture at up to 4K UHD, you'll be suprised by what you can achieve:</p>
+				<ul class="flex-grid">
+					<li class="flex-card">
+						<img src="images/icon_a1.svg" class="flex-card-icon">
+						<p>Promote your sports team, event, business or real estate</p>
+					</li>
+					<li class="flex-card">
+						<img src="images/icon_a2.svg" class="flex-card-icon">
+						<p>Map and model geography and architecture in 2D or 3D</p>
+					</li>
+					<li class="flex-card">
+						<img src="images/icon_a3.svg" class="flex-card-icon">
+						<p>Inspect buildings, roofs, turbines and hard to reach places</p>
+					</li>
+					<li class="flex-card">
+						<img src="images/icon_a4.svg" class="flex-card-icon">
+						<p>Document progress on construction projects of any size</p>
+					</li>
+					<li class="flex-card">
+						<img src="images/icon_a5.svg" class="flex-card-icon">
+						<p>Monitor solar farms and wildlife with thermal imaging surveys</p>
+					</li>
+					<li class="flex-card">
+						<img src="images/icon_a6.svg" class="flex-card-icon">
+						<p>Give yourself the freedom to think big and get ideas off the ground</p>
+					</li>	
+				</ul>
+			</div>
 		</div>
-		<div class="all-containers" id="showcase">
-			<h4>See for yourself</h4>
-			<h5>Interactive 3D model</h5>
-			<p>Go for a spin around one of the UK's Martello towers: a coastal defense built during the 19th century.</p>
-			
-			<a href="#0"><button class="normal" onclick="toggleiFrame()"><h3 id="toggle-model-text">Show 3D Model</h3></button></a>
-			
-			<iframe id="martello" src="about:blank" scrolling="no" title="Interactive 3D Model" width="100%" height="400"
-			frameBorder ="0">Your device is not capable of previewing this 3D model.</iframe>
-			
-			<h5>Flight footage</h5>
-			<p>Get a bird's eye view of the South Downs in East Sussex.</p>
-			<video width="100%" height="" controls>
-			<source src="movie.mp4" type="video/mp4">
-			<source src="movie.ogg" type="video/ogg">
-			Your current web browser does not support HTML5 video.
-			</video> 
+		<hr>
+<!-- showcase container -->
+		<div id="showcase-container" class="container">
+			<h4 class="content">See for yourself</h4>
+<!-- iframe content -->
+			<div id="iframe-content" class="content">
+				<h5>Interactive 3D model</h5>
+				<p>Go for a spin around one of the UK's Martello towers: a 19th century coastal defence.</p>
+				
+				<a href="#0"><button class="normal" onclick="toggleiFrame()"><h3 id="toggle-model-text">Load 3D Model</h3></button></a>
+				<iframe id="martello" src="about:blank" scrolling="no" title="Interactive 3D Model" width="100%" height="400"
+				frameBorder ="0">Your device is not capable of previewing this 3D model.</iframe>
+			</div>
+<!-- video content -->
+			<div id="video-content" class="content">
+				<h5>Flight footage</h5>
+				<p>Enjoy a bird's eye view of the South Downs in East Sussex.</p>
+				<video width="100%" height="" controls>
+				<source src="movie.mp4" type="video/mp4">
+				<source src="movie.ogg" type="video/ogg">
+				Your current web browser does not support HTML5 video.
+				</video>
+			</div>
 		</div>
-		<div class="all-containers" id="how">
-			<h4>How it works</h4>
-			<p>A quick overview of our process:</p>
-			<ul class="flex-grid">
-				<li class="flex-card">
-					<div class="placeholder"></div>
-					<p>First, we'll discuss your project with you to establish how we can put our resources to best use.</p>
-				</li>
-				<li class="flex-card">
-					<div class="placeholder"></div>
-					<p>Our team will then assess the location, monitor the weather and make any additional recomendations.</p>
-				</li>
-				<li class="flex-card">
-					<div class="placeholder"></div>
-					<p>After we complete the mission, along with any requested editing, the assets are yours to keep.</p>
-				</li>	
-			</ul>
+		<hr>
+<!-- process container -->
+		<div id="process-container" class="container">
+<!-- process content -->
+			<div id="process-content" class="content">
+				<h4>How it works</h4>
+				<p>A quick overview of our process:</p>
+				<ul class="flex-grid">
+					<li class="flex-card">
+						<div class="placeholder"></div>
+						<p>First, we'll discuss your project with you to establish how we can put our resources to best use</p>
+					</li>
+					<li class="flex-card">
+						<div class="placeholder"></div>
+						<p>Our pilots will make any necessary checks and recommendations to ensure that your project is a success</p>
+					</li>
+					<li class="flex-card">
+						<div class="placeholder"></div>
+						<p>We'll capture the footage you need, perform any requested editing, and provide the files for you to keep</p>
+					</li>	
+				</ul>
+			</div>
 		</div>
-		<div class="all-containers" id="cta">
-			<h4>Don't fly under the radar</h4>
-			<p>Get in touch with us today to discuss your requirements.</p>
-			<a href="contact.html"><button class="cta"><h3>Contact Us</h3></button></a>
+		<hr>
+<!-- cta container -->
+		<div id="cta-container" class="container">
+<!-- cta content -->
+			<div id="cta-content" class="content">
+				<h4>Don't fly under the radar</h4>
+				<p>Get in touch with us today to discuss your project and receive a free quote.</p>
+				<a href="contact.html"><button class="cta"><h3>Contact Us</h3></button></a>
+			</div>
 		</div>
-
-		<footer class="all-containers" id="footer">
-			<img src="images/logomark.svg" id="footer-logo">
-			<p id="footer-text">Copyright &copy2018 Milestone Drones Ltd. All rights reserved.</p>
+<!-- footer container -->
+		<footer id="footer-container">
+<!-- footer content -->
+			<div id="footer-content">
+				<img src="images/logomark.svg" id="footer-logo">
+				<p id="footer-text">Copyright &copy2018 Milestone Drones Ltd. All rights reserved.</p>
+			</div>
 		</footer>
-		<link rel="stylesheet" type="text/css" href="style.css">
 		<script src="code.js"></script>
 	</body>
 </html>
