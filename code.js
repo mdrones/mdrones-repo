@@ -19,7 +19,8 @@ function toggleiFrame(){
 	var heading = document.getElementById('toggle-model-text');
 	var iframe = document.getElementById('martello');
 	if(iframe.src == 'about:blank'){
-		iframe.src = 'https://www.mapsmadeeasy.com/maps/public_3D/8461da85c242470595e0981eed9e67bd';
+		// iframe.src = 'https://www.mapsmadeeasy.com/maps/public_3D/8461da85c242470595e0981eed9e67bd';
+		iframe.src = 'https://www.mapsmadeeasy.com/maps/public_3D/b70e7cbb91834eddaea1b944434bc41b';
 		heading.innerHTML = "Hide 3D Model";
 		iframe.style.display = 'inline';
 	}
