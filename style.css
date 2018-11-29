@@ -163,10 +163,6 @@ hr{
 	height: 100%;
 	overflow: hidden;
 }
-p#promo{
-	padding: 0;
-	margin: 0;
-}
 button.cta{
 	border-radius: 2px;
 	margin: 0.8rem 0;
@@ -203,7 +199,7 @@ button.normal:hover{
 
 }
 .container{
-	width: 100vw;
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -250,13 +246,23 @@ li.flex-card p{
 }
 
 /*============================================== ID */
+p#promo{
+	padding: 0 1.2rem;
+	margin: 0;
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 768px){
+	p#promo{
+		display: none;
+	}
+}
 #navbar-container{
 	width: 100%;
 	z-index: 999;
 }
 #navbar-content{
 	width: 100%;
-	padding: 0.6rem 6vw;
+	padding: 0.6rem 5vw;
 	background-color: #fff;
 	display: flex;
 	flex-direction: row;
@@ -265,6 +271,8 @@ li.flex-card p{
 	position: fixed;
 	z-index: 1;
 	top: 0;
+	right: 0;
+	left: 0;
 	transition: all 0.2s cubic-bezier(0.77,0.2,0.05,1.0);
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }

@@ -90,13 +90,13 @@ window.onscroll = function(){
 	if((atTop == 1) && (window.scrollY > 100)){
 		logo.src = 'images/wide.svg';
 		logo.style.height = ('1.8rem');
-		navcontent.style.padding = ('0.3rem 6vw');
+		navcontent.style.padding = ('0.3rem 5vw');
 		atTop = 0;
 	}
 	else if((atTop == 0) && (window.scrollY < 100)){
 		logo.src = 'images/wide_tagline.svg';
 		logo.style.height = ('3rem');
-		navcontent.style.padding = ('0.5rem 6vw');
+		navcontent.style.padding = ('0.5rem 5vw');
 		atTop = 1;
 	}
 };
