@@ -1,19 +1,3 @@
-// var mart = document.getElementById('martello');
-// mart.addEventListener('touchmove', function(event){
-// 	event.preventDefault();
-// 	event.stopPropagation();
-// 	mart.style.position = 'fixed';
-// 	document.body.classList.add('no-scroll');
-// }, false);
-
-// document.body.addEventListener('touchstart', function()){
-// 	document.body.style.backgroundColor = 'blue';
-// };
-
-
-
-
-
 //control whether the 3d model is loaded (src) and displayed (inline)
 function toggleiFrame(){
 	var heading = document.getElementById('toggle-model-text');
@@ -88,13 +72,13 @@ var logo = document.getElementById('nav-logo');
 var navcontent = document.getElementById('navbar-content');
 var atTop = 1;
 window.onscroll = function(){  
-	if((atTop == 1) && (window.scrollY > 100)){
+	if((atTop == 1) && (window.scrollY > 80)){
 		logo.src = 'images/wide.svg';
 		logo.style.height = ('1.8rem');
 		navcontent.style.padding = ('0.3rem 5vw');
 		atTop = 0;
 	}
-	else if((atTop == 0) && (window.scrollY < 100)){
+	else if((atTop == 0) && (window.scrollY < 80)){
 		logo.src = 'images/wide_tagline.svg';
 		logo.style.height = ('3rem');
 		navcontent.style.padding = ('0.5rem 5vw');
