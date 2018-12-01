@@ -3,7 +3,7 @@
 	<head lang="en-GB">
 		<style> html{display: none;} </style>
 		<meta charset="utf-8">
-
+		<link rel="stylesheet" type="text/css" href="style.css">
 		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 		<!-- <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"> -->
@@ -21,21 +21,18 @@
 		<link href="https://fonts.googleapis.com/css?family=Hind+Madurai:400,700" rel="stylesheet">
 	</head>
 	<body>
-		<div id="navbar">
+<!-- navbar container -->
+		<div id="navbar-container">
+<!-- navbar content -->
 			<div id="navbar-content">
-				<a href="index.html"><img src="images/wide_tagline.svg" alt="Milestone Drones Logo" id="main-logo"></a>
-
+				<a href="index.html"><img src="images/wide_tagline.svg" alt="Milestone Drones Logo" id="nav-logo"></a>
 				<div id="menuToggle">
-					<!--a fake / hidden checkbox is used as click reciever, so you can use the :checked selector on it-->
 					<input type="checkbox" id="menu-checkbox" onclick="toggleScroll()" />
-
-					<!--some spans to act as a hamburger-->
 					<span></span>
 					<span></span>
 					<span></span>
-
 					<ul id="menu">
-						<a href="index.html"><li>Home</li></a>
+						<a href="index.html"><li id="current-page">Home</li></a>
 						<a href="faq.html"><li>FAQ</li></a>
 						<a href="contact.html"><li>Contact Us</li></a>
 					</ul>
@@ -43,17 +40,24 @@
 			</div>
 		</div>
 
-		<div class="all-containers" id="form-success">
-			<h4>Success</h4>
-			<p>Thank you for getting in touch. We look forward to reading your message and will reply as soon as we can.</p>
-			<a href="index.html"><button class="normal"><h3>Back Home</h3></button></a>
+		<div class="spacer-nav"></div>
+		
+		<div id="form-success-container" class="container">
+			<div id="form-success-content" class="content">
+				<h4>Success</h4>
+				<p>Thank you for getting in touch. We look forward to reading your message and will reply as soon as we can.</p>
+				<a href="index.html"><button class="normal"><h3>Back Home</h3></button></a>
+			</div>
 		</div>
 
-		<footer class="all-containers" id="footer">
-			<img src="images/logomark.svg" id="footer-logo">
-			<p id="footer-text">Copyright &copy2018 Milestone Drones Ltd. All rights reserved.</p>
+<!-- footer container -->
+		<footer id="footer-container">
+<!-- footer content -->
+			<div id="footer-content">
+				<img src="images/logomark.svg" id="footer-logo">
+				<p id="footer-text">Copyright &copy2018 Milestone Drones Ltd.<br>All rights reserved.</p>
+			</div>
 		</footer>
-		<link rel="stylesheet" type="text/css" href="style.css">
 		<script src="code.js"></script>
 	</body>
 </html>
