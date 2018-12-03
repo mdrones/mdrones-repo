@@ -1,6 +1,19 @@
 <!DOCTYPE html>
 <html>
 	<head lang="en-GB">
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-130235786-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-130235786-1');
+
+			// window['ga-disable-UA-130235786-1'] = true;
+		</script>
+
 		<style> html{display: none;} </style>
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="style.css">
@@ -26,7 +39,7 @@
 <!-- navbar content -->
 			<div id="navbar-content">
 				<a href="index.html"><img src="images/wide_tagline.svg" alt="Milestone Drones Logo" id="nav-logo"></a>
-				<p id="promo">20% off all drone services before the end of 2018!</p>
+				<p id="promo">15% off all drone services before the end of 2018!</p>
 				<div id="menuToggle">
 					<input type="checkbox" id="menu-checkbox" onclick="toggleScroll()" />
 					<span></span>
@@ -114,11 +127,9 @@
 			<div id="video-content" class="content">
 				<h5>Flight footage</h5>
 				<p>Enjoy an aerial view of East Sussex's coastline and countryside.</p>
-				<video width="100%" height="" controls>
-				<source src="movie.mp4" type="video/mp4">
-				<source src="movie.ogg" type="video/ogg">
-				Your current web browser does not support HTML5 video.
-				</video>
+				<div class="flight-footage-container">
+					<iframe id="flight-footage" src="https://www.youtube.com/embed/htBOBPOcAdM?" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
 			</div>
 		</div>
 		<hr>
@@ -155,11 +166,19 @@
 			</div>
 		</div>
 <!-- footer container -->
-		<footer id="footer-container">
+		<footer class="footer-container">
 <!-- footer content -->
-			<div id="footer-content">
-				<img src="images/logomark.svg" id="footer-logo">
-				<p id="footer-text">Copyright &copy2018 Milestone Drones Ltd.<br>All rights reserved.</p>
+			<div class="footer-content">
+				<div class="footer-social-container">
+					<a href="https://www.youtube.com/channel/UC_7MXTFF8leyz9Y1MRaiuZw">
+						<img src="images/icon_yt.svg" class="social-icon">
+					</a>
+					<a href="https://www.facebook.com/milestonedrones/">
+						<img src="images/icon_fb.svg" class="social-icon">
+					</a>
+				</div>
+				<a href="privacy.html" class="privacy-link">Privacy Policy</a>
+				<p class="footer-text">&copy2018 Milestone Drones Ltd. All rights reserved.</p>
 			</div>
 		</footer>
 		<script src="code.js"></script>
