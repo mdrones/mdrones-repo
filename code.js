@@ -1,9 +1,36 @@
-//ga consent
-function gaOptIn(){
+//check for visited
+document.addEventListener("DOMContentLoaded", function(){
+	
+	var form = document.getElementById('ga-form-container');
+	
+	if (document.cookie.indexOf("visited=") >= 0){
+		// They've been here before.
+		form.style.display = 'none';
+	}
+	else{
+		form.style.display = 'flex';
+	}
+});
 
+
+
+function gaOptIn(){
+	var form = document.getElementById('ga-form-container');
+	form.style.display = 'none';
+	setCookie('y');
 }
 function gaOptOut(){
-	
+	var form = document.getElementById('ga-form-container');
+	form.style.display = 'none';
+	setCookie('n');
+}
+
+
+
+function setCookie(allow){
+	expiry = new Date();
+	expiry.setTime(expiry.getTime()+(10*60*1000)); // Ten minutes
+	document.cookie = "visited=yes; expires=" + expiry.toGMTString();
 }
 
 

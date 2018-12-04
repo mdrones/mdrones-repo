@@ -191,16 +191,16 @@ a:hover{
 }
 
 /*============================================== CLASS */
-.ga-consent-container{
+#ga-form-container{
 	width: 100vw;
 	height: 100vh;
-	display: flex;
+	display: none;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	position: absolute;
 }
-.ga-consent-container:before{
+.ga-form-container:before{
 	content: '';
 	display: block;
 	position: fixed;
@@ -213,7 +213,7 @@ a:hover{
 	z-index: 9999;
 	background-color: #fff;
 }
-.ga-consent-content{
+.ga-form-content{
 	width: 55%;
 	max-width: 750px;
 	background-color: #25324e;
@@ -224,24 +224,24 @@ a:hover{
 	text-align: center;
 	/*border: 2px solid #fff;*/
 }
-.ga-consent-content p{
+.ga-form-content p{
 	display: block;
 	color: #fff;
 	margin: 1rem 0;
 	text-align: center;
 }
-.ga-consent-content a{
+.ga-form-content a{
 	display: block;
 	width: 100%;
 	color: #fff;
 	margin: 1rem 0;
 }
-.ga-consent-content a p{
+.ga-form-content a p{
 	width: 100%;
 	border: 2px solid #058ed9;
 	padding: 0.4rem;
 }
-.ga-consent-content a p:hover{
+.ga-form-content a p:hover{
 	background-color: #058ed9;
 }
 
@@ -778,7 +778,7 @@ ul#menu a:hover li{
 	li.flex-card{
 		width: 18rem;
 	}
-	.ga-consent-content{
+	.ga-form-content{
 		width: 80%;
 	}
 }
