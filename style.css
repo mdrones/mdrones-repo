@@ -3,8 +3,6 @@ RED  #FF5B5B
 GREN #419D78
 BLUE #058ed9
 YELL #efbd47
-GREY #eff1f4
-GREY #aeb1b7
 GREY #4a4f59
 NAVY #25324e
 */
@@ -77,15 +75,14 @@ h5{
 	text-transform: uppercase;
 	color: #efbd47;
 }
-/*FINEPRINT*/
 h6:before{
 	content: '\0024D8';
 	margin-right: 0.4rem;
 	font-size: 0.7rem;
 	color: #25324e;
 }
+/*FINEPRINT*/
 h6{
-	/*margin: 0.2rem 0;*/
 	font-size: 0.8rem;
 	font-weight: 400;
 	color: #4a4f59;
@@ -133,16 +130,15 @@ input, textarea{
 input:required, textarea:required{
 	border-left: 4px solid #419D78;
 }
-input:invalid, textarea:invalid {
-	/*border: 1px solid red;*/
+input:invalid, textarea:invalid{
 	border-left: 4px solid #efbd47;
 }
-input:focus, textarea:focus {
+input:focus, textarea:focus{
 	border: 2px solid #efbd47;
 	border-left: 4px solid #efbd47;
 	color: #25324e;
 }
-textarea {
+textarea{
 	height: 8rem;
 }
 ::placeholder{
@@ -191,64 +187,6 @@ a:hover{
 }
 
 /*============================================== CLASS */
-#ga-form-container{
-	width: 100vw;
-	height: 100vh;
-	display: none;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	position: absolute;
-}
-.ga-form-container:before{
-	content: '';
-	display: block;
-	position: fixed;
-	/*top: 2rem;*/
-	right: 0;
-	left: 0;
-	width: 100vw;
-	height: 100vh;
-	opacity: 0.5;
-	z-index: 9999;
-	background-color: #fff;
-}
-.ga-form-content{
-	width: 55%;
-	max-width: 750px;
-	background-color: #25324e;
-	border-radius: 2px;
-	position: fixed;
-	z-index: 9999;
-	padding: 0.2rem 1rem;
-	text-align: center;
-	/*border: 2px solid #fff;*/
-}
-.ga-form-content p{
-	display: block;
-	color: #fff;
-	margin: 1rem 0;
-	text-align: center;
-}
-.ga-form-content a{
-	display: block;
-	width: 100%;
-	color: #fff;
-	margin: 1rem 0;
-}
-.ga-form-content a p{
-	width: 100%;
-	border: 2px solid #058ed9;
-	padding: 0.4rem;
-}
-.ga-form-content a p:hover{
-	background-color: #058ed9;
-}
-
-
-
-
-
 
 .no-scroll{
 	height: 100%;
@@ -258,7 +196,6 @@ a:hover{
 	height: 4.1rem;
 	width: 100%;
 	background-color: #25324e;
-	/*display: inline-block;*/
 }
 .spacer-point4-rem{
 	height: 0.4rem;
@@ -329,12 +266,10 @@ ul.flex-grid{
 	margin: 0 auto;
 }
 li.flex-card{
-	/*background-color: red;*/
 	display: block;
 	width: 16rem;
 	padding: 1rem;
 	margin: 0.6rem auto;
-	/*color: #25324e;*/
 	line-height: 1.2rem;
 	text-align: center;
 }
@@ -343,7 +278,6 @@ li.flex-card p{
 	font-size: 0.8rem;
 	font-weight: 400;
 	color: #4a4f59;
-	/*opacity: 0.8;*/
 }
 .flex-card-icon{
 	height: 9rem;
@@ -427,7 +361,6 @@ li.flex-card p{
 	top: 0;
 	right: 0;
 	left: 0;
-	/*transition: all 0.2s cubic-bezier(0.77,0.2,0.05,1.0);*/
 	box-shadow: 0 0 10px rgba(37, 50, 78, 0.2);
 }
 #nav-logo{
@@ -447,7 +380,6 @@ li.flex-card p{
 	content: '';
 	display: block;
 	position: absolute;
-	/*top: 2rem;*/
 	right: 0;
 	left: -10vw;
 	width: 110vw;
@@ -462,13 +394,11 @@ li.flex-card p{
 	-moz-background-size: cover;
 	-webkit-background-size: cover;
 	background-size: cover;
-
 }
 #hero-container:after{
 	content: '';
 	display: block;
 	position: absolute;
-	/*top: 2rem;*/
 	right: -10vw;
 	left: -10vw;
 	width: 110vw;
@@ -544,31 +474,7 @@ li.flex-card p{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #menuToggle{
-/*	display: block;
-	position: relative;
-	top: 50px;
-	left: 50px;*/
 	display: block;
 	width: 40px;
 	height: 40px;
@@ -594,13 +500,9 @@ li.flex-card p{
 	top: 8px;
 	background: #25324E;
 	border-radius: 3px;
-
 	z-index: 1;
-
 	transform-origin: 4px 0px;
-
-	transition: transform 0.2s cubic-bezier(0.77,0.2,0.05,1.0),
-	        	background 0.2s;
+	transition: transform 0.2s cubic-bezier(0.77,0.2,0.05,1.0), background 0.2s;
 }
 #menuToggle span:first-child{
  	transform-origin: 0% 0%;
@@ -642,15 +544,12 @@ li.flex-card p{
 	list-style-type: none;
 	-webkit-font-smoothing: antialiased;
 	/* to stop flickering of text in safari */
-
 	transform-origin: 0% 0%;
 	transform: translate(0, -120%);
-	/*transition: transform 0.4s cubic-bezier(0.77,0.2,0.05,1.0);*/
 }
 ul#menu a{
 	padding: 1.2rem 0;
 	margin: 0rem 0;
-	/*background-color: gold;*/
 }
 ul#menu li{
 	font-size: 2rem;
@@ -673,17 +572,11 @@ ul#menu a:hover li{
 	opacity: 0.5;
 	color: #fff;
 }
-/*let's slide it in from the left*/
 #menuToggle input:checked ~ ul{
 	transform: none;
 }
 
 
-
-
-
-
- /* Style the buttons that are used to open and close the accordion panel */
 .faq-question {
     background-color: #f5f5f5;
     cursor: pointer;
@@ -703,8 +596,6 @@ ul#menu a:hover li{
 	max-width: 60vw;
 	color: #25324e;
 }
-
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .faq-question:hover {
     background-color: #25324E;
     color: #fff;
@@ -712,43 +603,29 @@ ul#menu a:hover li{
 .active, .faq-question:hover h3{
     color: #fff;
 }
-
-/* Style the accordion panel. Note: hidden by default */
 .faq-answer {
     padding: 0.6rem 1.2rem 0.8rem 1.2rem;
     background-color: #fff;
     display: none;
     overflow: hidden;
 }
-
 .faq-question:after { 
-	content: '\002b'; /* Unicode character for "plus" sign (+) */
+	content: '\002b';
 	font-size: 1.4rem;
-	/*font-weight: 700;*/
 	float: right;
 }
 .active h3{
 	color: #fff;
 }
 .active:after {
-    content: '\2212'; /* Unicode character for "minus" sign (-) */
+    content: '\2212';
     color: #fff;
     opacity: 0.8;
     position: relative;
     top: -1px;
 }
 
-
-
-
 /*============================================== MEDIA QUERIES */
-
-/*@media only screen and (max-width: 600px) {
-	html{
-		font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width])));
-		font-size: calc(16px + (20 - 16) * ((100vw - 320px) / (1100 - 320)));
-	}
-}*/
 
 @media only screen and (max-width: 770px){
 	.navbar-promo{

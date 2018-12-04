@@ -1,31 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-  http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
-
-<url>
-  <loc>https:www.milestonedrones.co.uk/</loc>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https:www.milestonedrones.co.uk/index.html</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https:www.milestonedrones.co.uk/faq.html</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https:www.milestonedrones.co.uk/contact.html</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https:www.milestonedrones.co.uk/privacy.html</loc>
-  <priority>0.60</priority>
-</url>
-
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
+  <url>
+    <loc>https:www.milestonedrones.co.uk/</loc>
+    <lastmod>2018-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https:www.milestonedrones.co.uk/index.html</loc>
+    <lastmod>2018-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https:www.milestonedrones.co.uk/faq.html</loc>
+    <lastmod>2018-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https:www.milestonedrones.co.uk/contact.html</loc>
+    <lastmod>2018-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https:www.milestonedrones.co.uk/404.html</loc>
+    <lastmod>2018-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.40</priority>
+  </url>
 </urlset>

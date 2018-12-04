@@ -1,18 +1,6 @@
 <!DOCTYPE html>
 <html>
 	<head lang="en-GB">
-<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-130235786-1"></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag('js', new Date());
-
-			gtag('config', 'UA-130235786-1');
-			// window['ga-disable-UA-130235786-1'] = true;
-		</script>
-
-		<style> html{display: none;} </style>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="style.css">
@@ -82,6 +70,7 @@
 							<label for="msg">Message</label>
 							<textarea id="msg" name="message" placeholder="How can we help?" required="required"></textarea>
 						</div>
+						<div netlify-recaptcha></div>
 						<div class="form-item">
 						<h6>All fields are required.</h6>
 							<button type="submit" class="cta"><h3>Submit</h3></button>
@@ -104,7 +93,7 @@
 					</a>
 				</div>
 				<p class="footer-text">Telephone: 07856 599 498</p>
-				<p class="footer-text">Click to read our <a href="privacy.html" class="privacy-link">Privacy Policy</a></p>
+				<!-- <p class="footer-text">Click to read our <a href="privacy.html" class="privacy-link">Privacy Policy</a></p> -->
 				<p class="footer-fineprint">&copy2018 Milestone Drones Ltd. All rights reserved.</p>
 			</div>
 		</footer>

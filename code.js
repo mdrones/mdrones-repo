@@ -1,51 +1,8 @@
-//check for visited
-document.addEventListener("DOMContentLoaded", function(){
-	
-	var form = document.getElementById('ga-form-container');
-	
-	if (document.cookie.indexOf("visited=") >= 0){
-		// They've been here before.
-		form.style.display = 'none';
-	}
-	else{
-		form.style.display = 'flex';
-	}
-});
-
-
-
-function gaOptIn(){
-	var form = document.getElementById('ga-form-container');
-	form.style.display = 'none';
-	setCookie('y');
-}
-function gaOptOut(){
-	var form = document.getElementById('ga-form-container');
-	form.style.display = 'none';
-	setCookie('n');
-}
-
-
-
-function setCookie(allow){
-	expiry = new Date();
-	expiry.setTime(expiry.getTime()+(10*60*1000)); // Ten minutes
-	document.cookie = "visited=yes; expires=" + expiry.toGMTString();
-}
-
-
-
-
-
-
-
-
 //control whether the 3d model is loaded (src) and displayed (inline)
 function toggleiFrame(){
 	var heading = document.getElementById('toggle-model-text');
 	var iframe = document.getElementById('martello');
 	if(iframe.src == 'about:blank'){
-		// iframe.src = 'https://www.mapsmadeeasy.com/maps/public_3D/8461da85c242470595e0981eed9e67bd';
 		iframe.src = 'https://www.mapsmadeeasy.com/maps/public_3D/b70e7cbb91834eddaea1b944434bc41b';
 		heading.innerHTML = "Hide 3D Model";
 		iframe.style.display = 'inline';
@@ -59,7 +16,6 @@ function toggleiFrame(){
 		heading.innerHTML = "Show 3D Model";
 	}
 }
-
 
 
 //toggle-remove scrollbars when the menu is open to prevent scrolling
@@ -91,24 +47,6 @@ function shrinkNav(){
 }
 
 
-
-
-
-//prevent scrolling when interacting with iframe
-function iFrameScrollOff(){
-	document.body.classList.add('no-scroll');
-}
-//
-function iFrameScrollOn(){
-	document.body.classList.remove('no-scroll');
-}
-
-
-
-
-
-
-
 //shrink navbar when scrolling
 var logo = document.getElementById('nav-logo');
 var navcontent = document.getElementById('navbar-content');
@@ -126,9 +64,7 @@ window.onscroll = function(){
 		navcontent.style.padding = ('0.6rem 5vw');
 		atTop = 1;
 	}
-	//add a div for the promo offer that gets hidden on scroll down
 };
-
 
 
 // faq accordion
