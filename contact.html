@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head lang="en-GB">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<style>html{display:none;}</style>
+<!-- favicons -->
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+		<link rel="manifest" href="/site.webmanifest">
+		<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#222222">
+		<meta name="msapplication-TileColor" content="#e8c547">
+		<meta name="theme-color" content="#ffffff">
+		<link rel="icon" href="favicon.ico" type="image/x-icon"> 
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<meta name="theme-color" content="#5299d3" />
+<!-- page info -->
+		<title>Contact — Milestone Drones</title>
+		<meta name="description" content="Milestone Drones — Get in touch to learn about our services and recieve your free quote. Contact us today on 07 856 599 498 or use the contact form.">
+	</head>
+	<body>
+<!-- navbar container -->
+		<div id="navbar-container">
+<!-- navbar content -->
+			<div id="navbar-content">
+				<a href="/"><img src="images/wide_tagline.svg" alt="Milestone Drones Logo" id="nav-logo"></a>
+				<p class="navbar-promo">15% off all drone services before the end of 2018!</p>
+				<div id="menuToggle">
+					<input type="checkbox" id="menu-checkbox" onclick="toggleScroll()" />
+					<span></span>
+					<span></span>
+					<span></span>
+					<ul id="menu">
+						<a href="/"><li>Home</li></a>
+						<a href="faq.html"><li>FAQ</li></a>
+						<a href="contact.html"><li id="current-page">Contact Us</li></a>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="spacer-nav"></div>
+		
+		<div id="contactform-container" class="container">
+			<div id="contactform-content" class="content">
+				<h4>Contact Us</h4>
+				<p>For the remainder of 2018 we're offering our drone services at a <strong>15% discount!</strong></p>
+				<p>Have a question, idea or project? Let us know.</p>
+				<form action="thankyou.html" name="contactform" method="post" netlify netlify-honeypot="mandatory">
+					<div class="form-content">
+						<div class="form-item">
+							<label for="firstname">First Name</label>
+							<input type="text" id="firstname" name="first_name" required="required">
+						</div>
+						<div class="form-item" id="mandatory">
+							<label for="middlename">Middle Name</label>
+							<input type="text" id="middlename" name="mandatory">
+						</div>
+						<div class="form-item">
+							<label for="lastname">Last Name</label>
+							<input type="text" id="lastname" name="last_name" required="required">
+						</div>
+						<div class="form-item">
+							<label for="mail">Email</label>
+							<input type="email" id="mail" name="email" required="required">
+						</div>
+						<div class="form-item">
+							<label for="msg">Message</label>
+							<textarea id="msg" name="message" placeholder="How can we help?" required="required"></textarea>
+						</div>
+						<div netlify-recaptcha id="recaptcha"></div>
+						<div class="form-item">
+						<h6>All fields are required.</h6>
+							<button type="submit" class="cta"><h3>Submit</h3></button>
+						</div>
+					</div>
+				</form> 
+			</div>
+		</div>
+
+<!-- footer container -->
+		<footer class="footer-container">
+<!-- footer content -->
+			<div class="footer-content">
+				<div class="social-icon-container">
+					<a href="https://www.facebook.com/milestonedrones/">
+						<img src="images/icon_fb.svg" class="social-icon">
+					</a>
+					<a href="https://www.youtube.com/channel/UC_7MXTFF8leyz9Y1MRaiuZw">
+						<img src="images/icon_yt.svg" class="social-icon">
+					</a>
+				</div>
+				<p class="footer-text">Telephone: 07856 599 498</p>
+				<!-- <p class="footer-text">Click to read our <a href="privacy.html" class="privacy-link">Privacy Policy</a></p> -->
+				<p class="footer-fineprint">&copy2018 Milestone Drones Ltd. All rights reserved.</p>
+			</div>
+		</footer>
+		<link href="https://fonts.googleapis.com/css?family=Hind+Madurai:400,700" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="code.js"></script>
+	</body>
+</html>
