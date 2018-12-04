@@ -191,6 +191,64 @@ a:hover{
 }
 
 /*============================================== CLASS */
+.ga-consent-container{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+}
+.ga-consent-container:before{
+	content: '';
+	display: block;
+	position: fixed;
+	/*top: 2rem;*/
+	right: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	opacity: 0.5;
+	z-index: 9999;
+	background-color: #fff;
+}
+.ga-consent-content{
+	width: 55%;
+	max-width: 750px;
+	background-color: #25324e;
+	border-radius: 2px;
+	position: fixed;
+	z-index: 9999;
+	padding: 0.2rem 1rem;
+	text-align: center;
+	/*border: 2px solid #fff;*/
+}
+.ga-consent-content p{
+	display: block;
+	color: #fff;
+	margin: 1rem 0;
+	text-align: center;
+}
+.ga-consent-content a{
+	display: block;
+	width: 100%;
+	color: #fff;
+	margin: 1rem 0;
+}
+.ga-consent-content a p{
+	width: 100%;
+	border: 2px solid #058ed9;
+	padding: 0.4rem;
+}
+.ga-consent-content a p:hover{
+	background-color: #058ed9;
+}
+
+
+
+
+
 
 .no-scroll{
 	height: 100%;
@@ -228,7 +286,7 @@ button.cta{
 button.cta:hover{
 	cursor: pointer;
 	color: #fff;
-	box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.1), 0 0.5rem 0.5rem 0.2rem rgba(239, 189, 71, 0.15);
+	box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.08), 0 0.5rem 0.5rem 0.2rem rgba(239, 189, 71, 0.15);
 }
 button.normal{
 	margin: 0.8rem 0.8rem 0.8rem 0;
@@ -240,7 +298,7 @@ button.normal{
 }
 button.normal:hover{
 	cursor: pointer;
-	box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.1), 0 0.5rem 0.5rem 0.2rem rgba(37, 50, 78, 0.1);
+	box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.06), 0 0.5rem 0.5rem 0.2rem rgba(37, 50, 78, 0.1);
 }
 .form-content{
 	margin: 0 auto;
@@ -396,7 +454,6 @@ li.flex-card p{
 	height: 100%;
 	opacity: 0.4;
 	z-index: -2;
-	/*background-image: url('images/stock2.jpg');*/
 	background-image: url(images/sea.jpeg);
 	background-position: 0% 40%;
 	background-repeat: no-repeat;
@@ -693,7 +750,7 @@ ul#menu a:hover li{
 	}
 }*/
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 770px){
 	.navbar-promo{
 		display: none;
 	}
@@ -720,5 +777,8 @@ ul#menu a:hover li{
 	}
 	li.flex-card{
 		width: 18rem;
+	}
+	.ga-consent-content{
+		width: 80%;
 	}
 }

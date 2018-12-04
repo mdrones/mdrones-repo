@@ -1,3 +1,18 @@
+//ga consent
+function gaOptIn(){
+
+}
+function gaOptOut(){
+	
+}
+
+
+
+
+
+
+
+
 //control whether the 3d model is loaded (src) and displayed (inline)
 function toggleiFrame(){
 	var heading = document.getElementById('toggle-model-text');
