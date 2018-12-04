@@ -204,30 +204,42 @@ a:hover{
 .spacer-point4-rem{
 	height: 0.4rem;
 }
+.hero-promo{
+	color: #fff;
+	padding: 0;
+	margin: 0 0 0.8rem 0;
+	display: none;
+}
+.navbar-promo{
+	padding: 0 1.2rem;
+	margin: 0;
+	font-size: 0.9rem;
+	display: block;
+}
 button.cta{
 	border-radius: 2px;
 	margin: 1rem 1rem 1rem 0;
 	padding: 0.8rem 1.6rem;
-	color: #25324E;
+	color: #25324e;
 	background-color: #efbd47;
 	border: none;
 }
 button.cta:hover{
 	cursor: pointer;
-	box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.1);
 	color: #fff;
+	box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.1), 0 0.5rem 0.5rem 0.2rem rgba(239, 189, 71, 0.15);
 }
 button.normal{
 	margin: 0.8rem 0.8rem 0.8rem 0;
 	padding: 0.8rem 1.6rem;
-	border-radius: 1px;
+	border-radius: 2px;
 	color: #fff;
 	background-color: #25324e;
 	border: none;
 }
 button.normal:hover{
 	cursor: pointer;
-	box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.1);
+	box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.1), 0 0.5rem 0.5rem 0.2rem rgba(37, 50, 78, 0.1);
 }
 .form-content{
 	margin: 0 auto;
@@ -279,21 +291,23 @@ li.flex-card p{
 	width: 9rem;
 	margin: 0 auto;
 }
-.footer-social-container{
+.social-icon-container{
 	width: 100%;
-	margin: 2rem 0 1rem 0;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
+	margin: 2rem 0;
 }
 .social-icon{
 	height: 1.5rem;
-	margin: 0 0.4rem 0rem 0.4rem;
-	/*padding: 0.2rem;*/
+	margin: 0 0.8rem;
+	opacity: 1;
+	transition: opacity 0.1s; 
 }
 .social-icon:hover{
 	cursor: pointer;
+	opacity: 0.5;
 }
 .footer-container{
 	padding: 1rem 0;
@@ -309,27 +323,32 @@ li.flex-card p{
 	align-items: center;
 	justify-content: center;
 }
-.footer-text{
-	text-align: center;
-	font-size: 0.65rem;
-	font-weight: 400;
-	color: #fff;
-	line-height: 0.8rem;
-}
 .privacy-link{
-	margin: 1rem 0;
 	font-size: 0.7rem;
 	text-decoration: underline;
 	color: #fff;
 	text-align: center;
 }
+.footer-text{
+	text-align: center;
+	font-size: 0.7rem;
+	font-weight: 400;
+	color: #fff;
+	line-height: 0.8rem;
+	margin: 0.3rem 0;
+}
+.footer-fineprint{
+	text-align: center;
+	font-size: 0.65rem;
+	font-weight: 400;
+	color: #fff;
+	line-height: 0.8rem;
+	opacity: 0.5;
+	margin: 1rem 0;
+}
 
 /*============================================== ID */
-p#promo{
-	padding: 0 1.2rem;
-	margin: 0;
-	font-size: 0.9rem;
-}
+
 #navbar-container{
 	width: 100%;
 	z-index: 999;
@@ -374,7 +393,7 @@ p#promo{
 	left: -10vw;
 	width: 110vw;
 	height: 100%;
-	opacity: 0.3;
+	opacity: 0.4;
 	z-index: -2;
 	/*background-image: url('images/stock2.jpg');*/
 	background-image: url(images/sea.jpeg);
@@ -424,7 +443,7 @@ p#promo{
 #showcase-container{
 
 }
-#iframe-content{
+#interactive-3d-content{
 	margin: 0 auto;
 	margin-bottom: 2rem;
 }
@@ -593,7 +612,7 @@ ul#menu a:hover li{
 	color: #efbd47;
 }
 #menu li#current-page{
-	opacity: 0.3;
+	opacity: 0.5;
 	color: #fff;
 }
 /*let's slide it in from the left*/
@@ -674,10 +693,13 @@ ul#menu a:hover li{
 }*/
 
 @media only screen and (max-width: 768px){
-	p#promo{
+	.navbar-promo{
 		display: none;
 	}
-	#iframe-content{
+	.hero-promo{
+		display: block;
+	}
+	#interactive-3d-content{
 		display: none;
 	}
 	.content{
@@ -692,7 +714,10 @@ ul#menu a:hover li{
 	h6{
 		font-size: 0.9;
 	}
-	#footer-text{
-		font-size: 0.7rem;
+	.footer-text{
+		font-size: 0.8rem;
+	}
+	li.flex-card{
+		width: 18rem;
 	}
 }
