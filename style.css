@@ -334,6 +334,18 @@ li.flex-card p{
 	line-height: 0.8rem;
 	margin: 0.3rem 0;
 }
+.footer-link{
+	text-align: center;
+	font-size: 0.7rem;
+	font-weight: 400;
+	color: #fff;
+	line-height: 0.8rem;
+	margin: 0.3rem 0;
+	text-decoration: underline;
+}
+.footer-link:hover{
+	opacity: 0.5;
+}
 .footer-fineprint{
 	text-align: center;
 	font-size: 0.65rem;
@@ -653,7 +665,7 @@ ul#menu a:hover li{
 	h6{
 		font-size: 0.9;
 	}
-	.footer-text{
+	.footer-text, .footer-link{
 		font-size: 0.8rem;
 	}
 	li.flex-card{
