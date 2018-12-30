@@ -236,7 +236,7 @@ a:hover{
 	float: right;
 	border-radius: 2px 0px 0px 2px;
 	margin: 2rem 0 1rem 0;
-	margin-right: -12vw;
+	margin-right: -24vw;
 }
 .dronesafe-content{
 	padding: 0.5rem 0 0 1.6rem;
@@ -690,6 +690,9 @@ ul#menu a:hover li{
 	}
 	#interactive-3d-content{
 		display: none;
+	}
+	.dronesafe-container{
+		margin-right: -12vw;
 	}
 	.content{
 		padding: 0 7vw;
