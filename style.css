@@ -69,7 +69,7 @@ h4{
 }
 /*COLOURED SUBHEADING*/
 h5{
-	margin: 0.6rem 0 0 0;
+	margin: 1rem 0 0 0;
 	font-weight: 700;
 	font-size: 0.8rem;
 	text-transform: uppercase;
@@ -213,15 +213,12 @@ a:hover{
 	display: block;
 }
 .dronesafereg{
-	padding: 0.8rem 2.2rem;
-	width: 12rem;
-	/*background-color: #fff;*/
-	background-image: linear-gradient(180deg, rgba(255,255,255,0.9), rgba(255,255,255,1));
+	padding: 0.8rem 1.6rem;
+	width: 6rem;
+	background-image: linear-gradient(0deg, rgba(255,255,255,1), white 10%, rgba(255,255,255,0.9));
 	display: block;
-	position: relative;
-	bottom: -3.1rem;
-	margin: 0 auto;
-	border-radius: 2px;
+	border-radius: 2px 2px 0px 0px;
+	box-sizing: content-box;
 }
 .dronesafereg:hover{
 	background-image: linear-gradient(180deg, rgba(255,255,255,1), rgba(255,255,255,1));
@@ -334,6 +331,12 @@ li.flex-card p{
 	align-items: center;
 	justify-content: center;
 }
+.text-link{
+	color: #058ed9;
+}
+.text-link:hover{
+	text-decoration: underline;
+}
 .privacy-link{
 	font-size: 0.7rem;
 	text-decoration: underline;
@@ -445,7 +448,7 @@ li.flex-card p{
 #hero-content{
 	padding-top: 4rem;
 	/*padding-bottom: 4rem;*/
-	padding-bottom: 3rem;
+	padding-bottom: 2rem;
 }
 #safety-container{
 
