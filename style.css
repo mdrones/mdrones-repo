@@ -235,8 +235,7 @@ a:hover{
 	padding: 0 24vw 0 0;
 	float: right;
 	border-radius: 2px 0px 0px 2px;
-	margin: 2rem 0 1rem 0;
-	margin-right: -24vw;
+	margin: 1.5rem -24vw 1rem 0;
 }
 .dronesafe-content{
 	padding: 0.5rem 0 0 1.6rem;
@@ -249,7 +248,7 @@ button.cta{
 	color: #25324e;
 	background-color: #efbd47;
 	border: none;
-	display: block;
+	/*display: block;*/
 }
 button.cta:hover{
 	cursor: pointer;
@@ -437,7 +436,7 @@ li.flex-card p{
 	left: -10vw;
 	width: 110vw;
 	height: 100%;
-	opacity: 0.3;
+	opacity: 0.25;
 	z-index: -2;
 	background-image: url(images/sea.jpeg);
 	background-position: 0% 40%;
@@ -692,7 +691,7 @@ ul#menu a:hover li{
 		display: none;
 	}
 	.dronesafe-container{
-		margin-right: -12vw;
+		margin: 2.2rem -14vw 1rem 0;
 	}
 	.content{
 		padding: 0 7vw;
