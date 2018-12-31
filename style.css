@@ -680,11 +680,11 @@ ul#menu a:hover li{
 
 /*============================================== MEDIA QUERIES */
 
-@media only screen and (max-width: 360px){
+/*@media only screen and (max-width: 360px){
 	.dronesafe-container{
 		margin: 2.2rem -14vw 1rem 0;
 	}
-}
+}*/
 @media only screen and (max-width: 770px){
 	.navbar-promo{
 		display: none;
@@ -696,7 +696,7 @@ ul#menu a:hover li{
 		display: none;
 	}
 	.dronesafe-container{
-		margin: 2.2rem -19vw 1rem 0;
+		margin: 2.2rem -14vw 1rem 0;
 	}
 	.content{
 		padding: 0 7vw;
