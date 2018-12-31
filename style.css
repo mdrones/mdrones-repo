@@ -232,7 +232,7 @@ a:hover{
 	background-color: #fff;
 	display: block;
 	width: 8rem;
-	padding: 0 24vw 0 0;
+	padding: 0 19vw 0 0;
 	float: right;
 	border-radius: 2px 0px 0px 2px;
 	margin: 1.5rem -24vw 1rem 0;
@@ -680,6 +680,11 @@ ul#menu a:hover li{
 
 /*============================================== MEDIA QUERIES */
 
+@media only screen and (max-width: 360px){
+	.dronesafe-container{
+		margin: 2.2rem -14vw 1rem 0;
+	}
+}
 @media only screen and (max-width: 770px){
 	.navbar-promo{
 		display: none;
@@ -691,7 +696,7 @@ ul#menu a:hover li{
 		display: none;
 	}
 	.dronesafe-container{
-		margin: 2.2rem -16vw 1rem 0;
+		margin: 2.2rem -19vw 1rem 0;
 	}
 	.content{
 		padding: 0 7vw;
