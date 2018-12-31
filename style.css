@@ -275,9 +275,10 @@ button.normal:hover{
 	margin: 1rem auto;
 	max-width: 40rem;
 }
-#recaptcha{
+.recaptcha{
 	margin: 1rem auto;
 	max-width: 40rem;
+	overflow: hidden;
 }
 .page-content{
 
