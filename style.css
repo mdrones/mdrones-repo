@@ -691,7 +691,7 @@ ul#menu a:hover li{
 		display: none;
 	}
 	.dronesafe-container{
-		margin: 2.2rem -14vw 1rem 0;
+		margin: 2.2rem -16vw 1rem 0;
 	}
 	.content{
 		padding: 0 7vw;
@@ -713,5 +713,14 @@ ul#menu a:hover li{
 	}
 	.ga-form-content{
 		width: 80%;
+	}
+}
+
+@media only screen and (min-width: 1200px){
+	.dronesafe-container{
+		margin: 1.5rem -29vw 1rem 0;
+	}
+	.content{
+		padding: 0 10vw;
 	}
 }
