@@ -712,7 +712,7 @@ ul#menu a:hover li{
 	}
 }
 /*PHONES*/
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 470px){
 	.dronesafe-container{
 		margin: 2.2rem -14vw 1rem 4rem;
 	}
