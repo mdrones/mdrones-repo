@@ -662,6 +662,19 @@ ul#menu a:hover li{
 }
 
 /*============================================== MEDIA QUERIES */
+
+/*SCREENS*/
+@media only screen and (min-width: 1200px){
+	.dronesafe-container{
+		margin: 1.5rem -24vw 1rem 0;
+	}
+	.content{
+		padding: 0 12vw;
+	}
+	hr{
+		width: 76vw;
+	}
+}
 /*TABLETS*/
 @media only screen and (max-width: 770px){
 	.navbar-promo{
@@ -674,7 +687,7 @@ ul#menu a:hover li{
 		display: none;
 	}
 	.dronesafe-container{
-		margin: 2.2rem -14vw 1rem 0;
+		margin: 1.5rem -14vw 1rem 4rem;
 	}
 	.content{
 		padding: 0 7vw;
@@ -698,22 +711,9 @@ ul#menu a:hover li{
 		width: 80%;
 	}
 }
-
-@media only screen and (max-width: 770px){
+/*PHONES*/
+@media only screen and (max-width: 480px){
 	.dronesafe-container{
-		margin: 2.2rem -16vw 1rem 0;
-	}
-}
-
-/*SCREENS*/
-@media only screen and (min-width: 1200px){
-	.dronesafe-container{
-		margin: 1.5rem -24vw 1rem 0;
-	}
-	.content{
-		padding: 0 12vw;
-	}
-	hr{
-		width: 76vw;
+		margin: 2.2rem -14vw 1rem 4rem;
 	}
 }
