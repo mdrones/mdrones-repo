@@ -75,13 +75,13 @@ h5{
 	text-transform: uppercase;
 	color: #efbd47;
 }
+/*FINEPRINT*/
 h6:before{
 	content: '\0024D8';
 	margin-right: 0.4rem;
 	font-size: 0.7rem;
 	color: #25324e;
 }
-/*FINEPRINT*/
 h6{
 	font-size: 0.8rem;
 	font-weight: 400;
@@ -94,6 +94,18 @@ p{
 	font-size: 1rem;
 	line-height: 1.4rem;
 	color: #4a4f59;
+}
+.checklist:before{
+	content: '\002714';
+	margin-right: 0.4rem;
+	font-size: 0.7rem;
+	color: #4a4f59;
+}
+.checklist{
+	font-size: 0.8rem;
+	font-weight: 400;
+	color: #4a4f59;
+	opacity: 0.8;
 }
 label{
 	display: block;
@@ -173,7 +185,6 @@ video{
 }
 hr{
 	width: 76vw;
-	/*max-width: 1550px;*/
 	height: 2px;
 	color: #edeff4;
 	border: 1px solid;
@@ -322,7 +333,7 @@ li.flex-card p{
 .footer-container{
 	padding: 1rem 0;
 	width: 100%;
-	margin-top: 3rem;
+	margin-top: 4rem;
 	background-color: #25324E;
 	position: relative;
 	bottom: 0;
@@ -484,7 +495,14 @@ li.flex-card p{
 
 }
 #cta-content{
-	padding-bottom: 4rem;
+	/*padding-bottom: 4rem;*/
+}
+#checklist-container{
+	margin-bottom: 0;
+}
+#checklist-content{
+	background-color: #edeff4;
+	padding: 1rem 12vw;
 }
 #faq-container{
 
