@@ -742,4 +742,8 @@ ul#menu a:hover li{
 	.dronesafe-container{
 		margin: 2.2rem -14vw 1rem 4rem;
 	}
+	.social-icon{
+		height: 1.4rem;
+		margin: 0 0.6rem;
+	}
 }
