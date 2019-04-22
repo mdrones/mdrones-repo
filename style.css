@@ -1,12 +1,3 @@
-/*2 8 9 6 E 0
-RED  #FF5B5B
-GREN #419D78
-BLUE #058ed9
-YELL #efbd47
-GREY #4a4f59
-NAVY #25324e
-*/
-
 /*============================================== RESET */
 
 *{
@@ -257,19 +248,32 @@ button.normal:hover{
 	max-width: 40rem;
 	overflow: hidden;
 }
-.dronesafe-container{
-	box-sizing: content-box;
-	background-color: #fff;
-	display: block;
-	width: 8rem;
-	padding: 0 19vw 0 0;
-	float: right;
-	border-radius: 2px 0px 0px 2px;
-	margin: 1.5rem -24vw 1rem 0;
+#logo-container{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	padding: 1rem 0;
 }
-.dronesafe-content{
-	padding: 0.5rem 0 0 1.6rem;
-	height: 3.6rem;
+#dronesafe-logo{
+	height: 3.2rem;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	opacity: 0.6;
+}
+#dronesafe-logo:hover{
+	-webkit-filter: none;
+	filter: none;
+	opacity: 1;
+}
+#icarus-logo{
+	height: 2.8rem;
+	margin-left: 4rem;
+	opacity: 0.5;
+}
+#icarus-logo:hover{
+	opacity: 0.8;
 }
 .container{
 	width: 100%;
@@ -328,7 +332,7 @@ li.flex-card p{
 .footer-container{
 	padding: 1rem 0;
 	width: 100%;
-	margin-top: 5rem;
+	margin-top: 3rem;
 	background-color: #25324E;
 	position: relative;
 	bottom: 0;
@@ -358,6 +362,7 @@ li.flex-card p{
 	color: #fff;
 	line-height: 0.8rem;
 	margin: 0.3rem 0;
+	opacity: 0.92;
 }
 .footer-link{
 	text-align: center;
@@ -455,7 +460,6 @@ li.flex-card p{
 }
 #hero-content{
 	padding-top: 4rem;
-	/*padding-bottom: 4rem;*/
 	padding-bottom: 4rem;
 }
 #safety-container{
@@ -534,8 +538,6 @@ li.flex-card p{
 #mandatory{
 	display: none;
 }
-
-
 #menuToggle{
 	display: block;
 	width: 40px;
@@ -572,18 +574,18 @@ li.flex-card p{
 #menuToggle span:nth-last-child(2){
 	transform-origin: 0% 100%;
 }
-/*transform all the slices of hamburger into a crossmark*/
+/*transform menu icon into a crossmark*/
 #menuToggle input:checked ~ span{
 	opacity: 1;
 	transform: rotate(45deg) translate(-2px, -1px);
 	background: #fff;
 }
-/*but let's hide the middle one*/
+/*hide middle bar*/
 #menuToggle input:checked ~ span:nth-last-child(3){
 	opacity: 0;
 	transform: rotate(0deg) scale(0.2, 0.2);
 }
-/*the last one should go the other direction*/
+/*change direction of last bar*/
 #menuToggle input:checked ~ span:nth-last-child(2){
 	transform: rotate(-45deg) translate(0, -1px);
 }
@@ -712,9 +714,6 @@ ul#menu a:hover li{
 	#interactive-3d-content{
 		display: none;
 	}
-	.dronesafe-container{
-		margin: 1.5rem -14vw 1rem 4rem;
-	}
 	.content{
 		padding: 0 7vw;
 	}
@@ -737,13 +736,24 @@ ul#menu a:hover li{
 		width: 80%;
 	}
 }
+
+@media only screen and (max-width: 550px){	
+	#logo-container{
+		padding: 1rem 7vw;
+		justify-content: space-between;
+	}
+	#icarus-logo{
+		margin-left: 1rem;
+	}
+}
+
 /*PHONES*/
 @media only screen and (max-width: 470px){
-	.dronesafe-container{
-		margin: 2.2rem -14vw 1rem 4rem;
-	}
 	.social-icon{
 		height: 1.4rem;
 		margin: 0 0.6rem;
 	}
 }
+
+
+
