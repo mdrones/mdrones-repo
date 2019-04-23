@@ -253,11 +253,37 @@ button.normal:hover{
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
+	flex-flow: wrap;
 	width: 100%;
 	padding: 1rem 0;
 }
+#caa-logo-container{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	opacity: 0.6;
+}
+#caa-logo{
+	height: 3.2rem;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+#caa-logo-container:hover{
+	-webkit-filter: none;
+	filter: none;
+	opacity: 0.9;
+}
+#caa-logo-container:hover #caa-logo{
+	-webkit-filter: none;
+	filter: none;
+}
+#pfco{
+	margin-left: 0.6rem;
+}
 #dronesafe-logo{
 	height: 3.2rem;
+	margin-left: 4rem;
 	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
 	opacity: 0.6;
@@ -270,6 +296,7 @@ button.normal:hover{
 #icarus-logo{
 	height: 2.8rem;
 	margin-left: 4rem;
+	margin-top: 0;
 	opacity: 0.5;
 }
 #icarus-logo:hover{
@@ -414,7 +441,7 @@ li.flex-card p{
 	top: 5px;
 	height: 3rem;
 	cursor: pointer;
-	/*transition: all 0.2s cubic-bezier(0.77,0.2,0.05,1.0);*/
+	/*transition: all 0.5s cubic-bezier(0.77,0.2,0.05,1.0);*/
 }
 #hero-container{
 	margin: 0;
@@ -494,7 +521,7 @@ li.flex-card p{
 
 }
 #cta-content{
-	/*padding-bottom: 4rem;*/
+
 }
 #checklist-container{
 	margin-bottom: 0;
@@ -693,9 +720,6 @@ ul#menu a:hover li{
 
 /*SCREENS*/
 @media only screen and (min-width: 1200px){
-	.dronesafe-container{
-		margin: 1.5rem -24vw 1rem 0;
-	}
 	.content{
 		padding: 0 12vw;
 	}
@@ -735,23 +759,27 @@ ul#menu a:hover li{
 	.ga-form-content{
 		width: 80%;
 	}
-}
-
-@media only screen and (max-width: 550px){	
 	#logo-container{
 		padding: 1rem 7vw;
-		justify-content: space-between;
 	}
 	#icarus-logo{
-		margin-left: 1rem;
+		margin-left: 1.2rem;
+	}
+	#dronesafe-logo{
+		margin-left: 1.2rem;
 	}
 }
 
 /*PHONES*/
-@media only screen and (max-width: 470px){
+@media only screen and (max-width: 467px){
 	.social-icon{
 		height: 1.4rem;
 		margin: 0 0.6rem;
+	}
+	#icarus-logo{
+		margin-top: 1.2rem;
+		margin-left: 1.2rem;
+		margin-right: 1.2rem;
 	}
 }
 
