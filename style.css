@@ -490,7 +490,7 @@ li.flex-card p{
 	padding-bottom: 4rem;
 }
 #safety-container{
-
+	margin-top: 3rem;
 }
 #safety-content{
 
@@ -712,8 +712,8 @@ ul#menu a:hover li{
     content: '\2212';
     color: #fff;
     opacity: 0.8;
-    position: relative;
-    top: -1px;
+/*    position: relative;
+    top: 0px;*/
 }
 
 /*============================================== MEDIA QUERIES */
