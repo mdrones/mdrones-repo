@@ -1,1 +1,470 @@
-{}
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"padding",
+				"padding-right\tproperty"
+			],
+			[
+				"vis",
+				"visibility"
+			],
+			[
+				"anima",
+				"animation-fill-mode\tproperty"
+			],
+			[
+				"scale",
+				"scale3d()\ttransform"
+			],
+			[
+				"trans",
+				"transform-style\tproperty"
+			],
+			[
+				"ea",
+				"ease-in\tanimation-timing-function"
+			],
+			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
+				"class",
+				"classList"
+			],
+			[
+				"c",
+				"click"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"gray-darken",
+				"gray-darken-10"
+			],
+			[
+				"gra",
+				"gray-darken-30"
+			],
+			[
+				"gray-dark",
+				"gray-darken-30"
+			],
+			[
+				"gray-ligh",
+				"gray-lighten-30"
+			],
+			[
+				"box",
+				"box-shadow\tproperty"
+			],
+			[
+				"gr",
+				"gray-lighten-40"
+			],
+			[
+				"f",
+				"flex-start\talign-self"
+			],
+			[
+				"align",
+				"align-self\tproperty"
+			],
+			[
+				"gray",
+				"gray-base"
+			],
+			[
+				"gray-lighten",
+				"gray-lighten-40"
+			],
+			[
+				"bo",
+				"box-shadow\tproperty"
+			],
+			[
+				"gray-",
+				"gray-base"
+			],
+			[
+				"w",
+				"white"
+			],
+			[
+				"spa",
+				"space-l"
+			],
+			[
+				"space-m",
+				"space-m"
+			],
+			[
+				"space",
+				"space-s"
+			],
+			[
+				"margin-",
+				"margin-bottom\tproperty"
+			],
+			[
+				"flex-",
+				"flex-direction\tproperty"
+			],
+			[
+				"gray-da",
+				"gray-darken-20"
+			],
+			[
+				"s",
+				"space-xxxl"
+			],
+			[
+				"over",
+				"overflow-x\tproperty"
+			],
+			[
+				"ali",
+				"align-items\tproperty"
+			],
+			[
+				"overflow",
+				"overflow-y\tproperty"
+			],
+			[
+				"background",
+				"background-color\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 10657,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "faq.html",
+			"settings":
+			{
+				"buffer_size": 12010,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "style.css",
+			"settings":
+			{
+				"buffer_size": 12931,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"vmen",
+				"View: Toggle Menu"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/tom/dev/webdev/milestone/mdrones-repo"
+	],
+	"file_history":
+	[
+		"/home/tom/dev/webdev/tunepad/proto_04/script.js",
+		"/home/tom/dev/webdev/tunepad/proto_04/style.css",
+		"/home/tom/dev/webdev/tunepad/proto_04/index.html",
+		"/home/tom/dev/webdev/tunepad/proto_04/icons/star-border.svg",
+		"/home/tom/dev/webdev/tunepad/proto_04/icons/ellipsis-horiz.svg",
+		"/home/tom/dev/webdev/tunepad/proto_04/icons/ellipsis-vert.svg",
+		"/home/tom/dev/webdev/tunepad/proto_03/style.css",
+		"/home/tom/dev/webdev/tunepad/proto_03/index.html",
+		"/home/tom/dev/webdev/tunepad/proto_03/icons/stats.svg",
+		"/home/tom/dev/webdev/milestone/mdrones-repo/404.html",
+		"/home/tom/dev/webdev/milestone/mdrones-repo/contact.html",
+		"/home/tom/dev/webdev/milestone/mdrones-repo/faq.html",
+		"/home/tom/dev/webdev/milestone/mdrones-repo/thankyou.html",
+		"/home/tom/dev/webdev/milestone/mdrones-repo/privacy.html",
+		"/home/tom/dev/webdev/milestone/mdrones-repo/index.html",
+		"/home/tom/dev/webdev/tunepad/proto_03/script.js",
+		"/home/tom/dev/webdev/tunepad/proto_03/icons/info.svg",
+		"/home/tom/dev/webdev/tunepad/proto_01/style.css",
+		"/home/tom/dev/webdev/tunepad/proto_03/icons/arrow.svg",
+		"/home/tom/dev/webdev/tunepad/proto_02/script.js",
+		"/home/tom/dev/webdev/tunepad/proto_02/style.css",
+		"/home/tom/dev/webdev/tunepad/proto_02/index.html",
+		"/home/tom/dev/webdev/milestone/mdrones-repo/style.css",
+		"/home/tom/dev/webdev/milestonedrones/layouts/index.html",
+		"/home/tom/dev/webdev/milestonedrones/config.toml",
+		"/home/tom/dev/webdev/tunepad/proto_01/code.js",
+		"/home/tom/dev/webdev/tunepad/proto_01/index.html",
+		"/home/tom/dev/tunepad_05/script.js",
+		"/home/tom/dev/tunepad_05/style.css",
+		"/home/tom/dev/tunepad_05/index.html"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 102.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"faq",
+			"overflow",
+			"60px",
+			"active",
+			"btn-icon",
+			"btn",
+			"rgba",
+			"top",
+			"child",
+			"bottom",
+			"btn c",
+			"btn-1",
+			"preload",
+			"cell-btn",
+			"icarus",
+			"div",
+			"darken"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10657,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3208,
+								3208
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 697.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "faq.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12010,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9450,
+								9450
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3470.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12931,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8344,
+								8344
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 8053.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 237.0,
+	"status_bar_visible": false,
+	"template_settings":
+	{
+	}
+}
