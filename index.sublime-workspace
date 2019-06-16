@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"f",
+				"flex-start\talign-items"
+			],
+			[
+				"fl",
+				"flex-start\tjustify-content"
+			],
+			[
+				"no",
+				"nowrap\twhite-space"
+			],
+			[
+				"text",
+				"text-transform\tproperty"
+			],
+			[
 				"padding",
 				"padding-right\tproperty"
 			],
@@ -66,10 +82,6 @@
 			[
 				"gr",
 				"gray-lighten-40"
-			],
-			[
-				"f",
-				"flex-start\talign-self"
 			],
 			[
 				"align",
@@ -147,7 +159,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 10657,
+				"buffer_size": 11076,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -165,7 +177,7 @@
 			"file": "style.css",
 			"settings":
 			{
-				"buffer_size": 12931,
+				"buffer_size": 13244,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -244,7 +256,7 @@
 	],
 	"find":
 	{
-		"height": 40.0
+		"height": 44.0
 	},
 	"find_in_files":
 	{
@@ -292,7 +304,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -301,15 +313,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10657,
+						"buffer_size": 11076,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3208,
-								3208
+								2856,
+								2856
 							]
 						],
 						"settings":
@@ -318,10 +330,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 697.0,
+						"translation.y": 796.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -350,7 +362,7 @@
 						"translation.y": 3470.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -359,15 +371,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 12931,
+						"buffer_size": 13244,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8344,
-								8344
+								10669,
+								10669
 							]
 						],
 						"settings":
@@ -376,7 +388,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 8053.0,
+						"translation.y": 10610.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -387,7 +399,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 26.0
+		"height": 31.0
 	},
 	"input":
 	{
@@ -424,7 +436,7 @@
 	"project": "index.sublime-project",
 	"replace":
 	{
-		"height": 48.0
+		"height": 58.0
 	},
 	"save_all_on_build": true,
 	"select_file":
