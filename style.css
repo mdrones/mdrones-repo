@@ -255,7 +255,9 @@ button.normal:hover{
 	justify-content: center;
 	flex-flow: wrap;
 	width: 100%;
-	padding: 3rem 0;
+	margin-top: 3rem;
+	padding: 3rem 6rem;
+	background-color: rgba(15,20,31,.04);
 }
 #caa-logo-container{
 	display: flex;
@@ -263,9 +265,10 @@ button.normal:hover{
 	align-items: center;
 	justify-content: center;
 	opacity: 0.6;
+	margin: 1rem 3vw;
 }
 #caa-logo{
-	height: 3.2rem;
+	height: 3rem;
 	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
 }
@@ -283,7 +286,7 @@ button.normal:hover{
 }
 #dronesafe-logo{
 	height: 3.2rem;
-	margin-left: 4rem;
+	margin: 1rem 3vw;
 	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
 	opacity: 0.6;
@@ -295,12 +298,25 @@ button.normal:hover{
 }
 #icarus-logo{
 	height: 2.8rem;
-	margin-left: 4rem;
-	margin-top: 0;
+	margin: 1rem 3vw;
 	opacity: 0.5;
 }
 #icarus-logo:hover{
 	opacity: 0.8;
+}
+#hcc-logo{
+	height: 2.6rem;
+	margin: 1rem 3vw;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	opacity: 0.6;
+	position: relative;
+	top: -3px;
+}
+#hcc-logo:hover{
+	-webkit-filter: none;
+	filter: none;
+	opacity: 1;
 }
 .container{
 	width: 100%;
@@ -344,7 +360,7 @@ li.flex-card p{
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
-	margin: 1.6rem 0;
+	margin: 2rem 0;
 }
 .social-icon{
 	height: 1.5rem;
@@ -359,7 +375,7 @@ li.flex-card p{
 .footer-container{
 	padding: 1rem 0;
 	width: 100%;
-	margin-top: 3rem;
+	/*margin-top: 3rem;*/
 	background-color: #25324E;
 	position: relative;
 	bottom: 0;
@@ -509,7 +525,7 @@ background-color: rgba(15,20,31,.04);
 	white-space: nowrap;
 }
 #safety-container{
-	margin-top: 6rem;
+	margin-top: 4rem;
 }
 #safety-content{
 
@@ -783,16 +799,10 @@ ul#menu a:hover li{
 	#logo-container{
 		padding: 1rem 7vw;
 	}
-	#icarus-logo{
-		margin-left: 1.2rem;
-	}
-	#dronesafe-logo{
-		margin-left: 1.2rem;
-	}
 }
 
 /*PHONES*/
-@media only screen and (max-width: 467px){
+@media only screen and (max-width: 500px){
 	.container{
 		margin: 2rem 0;
 	}
@@ -800,16 +810,11 @@ ul#menu a:hover li{
 		margin-top: 4rem;
 	}
 	#logo-container{
-		padding: 3rem 0;
+		/*padding: 3rem 0;*/
 	}
 	.social-icon{
 		height: 1.4rem;
 		margin: 0 0.6rem;
-	}
-	#icarus-logo{
-		margin-top: 1.2rem;
-		margin-left: 1.2rem;
-		margin-right: 1.2rem;
 	}
 }
 
