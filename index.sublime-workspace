@@ -159,16 +159,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 11076,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "faq.html",
-			"settings":
-			{
-				"buffer_size": 12010,
+				"buffer_size": 9508,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -223,6 +214,11 @@
 	],
 	"file_history":
 	[
+		"/home/tom/dev/webdev/milestone/mdrones-repo/thankyou.html",
+		"/home/tom/dev/webdev/milestone/mdrones-repo/privacy.html",
+		"/home/tom/dev/webdev/milestone/mdrones-repo/contact.html",
+		"/home/tom/dev/webdev/milestone/mdrones-repo/404.html",
+		"/home/tom/dev/webdev/milestone/mdrones-repo/faq.html",
 		"/home/tom/dev/webdev/tunepad/proto_04/script.js",
 		"/home/tom/dev/webdev/tunepad/proto_04/style.css",
 		"/home/tom/dev/webdev/tunepad/proto_04/index.html",
@@ -232,11 +228,6 @@
 		"/home/tom/dev/webdev/tunepad/proto_03/style.css",
 		"/home/tom/dev/webdev/tunepad/proto_03/index.html",
 		"/home/tom/dev/webdev/tunepad/proto_03/icons/stats.svg",
-		"/home/tom/dev/webdev/milestone/mdrones-repo/404.html",
-		"/home/tom/dev/webdev/milestone/mdrones-repo/contact.html",
-		"/home/tom/dev/webdev/milestone/mdrones-repo/faq.html",
-		"/home/tom/dev/webdev/milestone/mdrones-repo/thankyou.html",
-		"/home/tom/dev/webdev/milestone/mdrones-repo/privacy.html",
 		"/home/tom/dev/webdev/milestone/mdrones-repo/index.html",
 		"/home/tom/dev/webdev/tunepad/proto_03/script.js",
 		"/home/tom/dev/webdev/tunepad/proto_03/icons/info.svg",
@@ -256,7 +247,7 @@
 	],
 	"find":
 	{
-		"height": 44.0
+		"height": 26.0
 	},
 	"find_in_files":
 	{
@@ -313,15 +304,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 11076,
+						"buffer_size": 9508,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2856,
-								2856
+								7120,
+								7120
 							]
 						],
 						"settings":
@@ -330,7 +321,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 796.0,
+						"translation.y": 2770.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -338,35 +329,6 @@
 				},
 				{
 					"buffer": 1,
-					"file": "faq.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 12010,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								9450,
-								9450
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 3470.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "style.css",
 					"semi_transient": false,
 					"settings":
@@ -399,7 +361,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 31.0
+		"height": 26.0
 	},
 	"input":
 	{
@@ -436,7 +398,7 @@
 	"project": "index.sublime-project",
 	"replace":
 	{
-		"height": 58.0
+		"height": 48.0
 	},
 	"save_all_on_build": true,
 	"select_file":
