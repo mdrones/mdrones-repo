@@ -492,7 +492,7 @@ li.flex-card p{
 #fleet-container{
 margin: 0;
 padding: 0.2rem 0;
-background-color: rgba(15,20,31,.1);
+background-color: rgba(15,20,31,.04);
 }
 #fleet-content{
 	display: flex;
@@ -519,13 +519,6 @@ background-color: rgba(15,20,31,.1);
 }
 #services-content{
 
-}
-#showcase-container{
-
-}
-#interactive-3d-content{
-	margin: 0 auto;
-	margin-bottom: 2rem;
 }
 #video-content{
 	margin: 0 auto;

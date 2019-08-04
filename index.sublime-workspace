@@ -159,7 +159,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 9508,
+				"buffer_size": 9476,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -169,7 +169,6 @@
 			"settings":
 			{
 				"buffer_size": 13244,
-				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		}
@@ -208,12 +207,10 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/home/tom/dev/webdev/milestone/mdrones-repo"
-	],
 	"file_history":
 	[
+		"/home/tom/dev/webdev/milestone/mdrones-repo/style.css",
+		"/home/tom/dev/webdev/milestone/mdrones-repo/index.html",
 		"/home/tom/dev/webdev/milestone/mdrones-repo/thankyou.html",
 		"/home/tom/dev/webdev/milestone/mdrones-repo/privacy.html",
 		"/home/tom/dev/webdev/milestone/mdrones-repo/contact.html",
@@ -228,7 +225,6 @@
 		"/home/tom/dev/webdev/tunepad/proto_03/style.css",
 		"/home/tom/dev/webdev/tunepad/proto_03/index.html",
 		"/home/tom/dev/webdev/tunepad/proto_03/icons/stats.svg",
-		"/home/tom/dev/webdev/milestone/mdrones-repo/index.html",
 		"/home/tom/dev/webdev/tunepad/proto_03/script.js",
 		"/home/tom/dev/webdev/tunepad/proto_03/icons/info.svg",
 		"/home/tom/dev/webdev/tunepad/proto_01/style.css",
@@ -236,7 +232,6 @@
 		"/home/tom/dev/webdev/tunepad/proto_02/script.js",
 		"/home/tom/dev/webdev/tunepad/proto_02/style.css",
 		"/home/tom/dev/webdev/tunepad/proto_02/index.html",
-		"/home/tom/dev/webdev/milestone/mdrones-repo/style.css",
 		"/home/tom/dev/webdev/milestonedrones/layouts/index.html",
 		"/home/tom/dev/webdev/milestonedrones/config.toml",
 		"/home/tom/dev/webdev/tunepad/proto_01/code.js",
@@ -304,15 +299,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 9508,
+						"buffer_size": 9476,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7120,
-								7120
+								2523,
+								2523
 							]
 						],
 						"settings":
@@ -321,7 +316,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2770.0,
+						"translation.y": 624.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -340,8 +335,8 @@
 						"selection":
 						[
 							[
-								10669,
-								10669
+								0,
+								0
 							]
 						],
 						"settings":
@@ -350,7 +345,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 10610.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
