@@ -210,7 +210,7 @@ a:hover{
 	display: block;
 }
 button.cta{
-	border-radius: 2px;
+	border-radius: 4px;
 	margin: 2rem 1rem 1rem 0;
 	padding: 0.8rem 1.6rem;
 	color: #25324e;
@@ -226,7 +226,7 @@ button.cta:hover{
 button.normal{
 	margin: 1.2rem 0.8rem 0.8rem 0;
 	padding: 0.8rem 1.6rem;
-	border-radius: 2px;
+	border-radius: 4px;
 	color: #fff;
 	background-color: #25324e;
 	border: none;
@@ -255,7 +255,7 @@ button.normal:hover{
 	justify-content: center;
 	flex-flow: wrap;
 	width: 100%;
-	padding: 1rem 0;
+	padding: 3rem 0;
 }
 #caa-logo-container{
 	display: flex;
@@ -307,7 +307,7 @@ button.normal:hover{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin: 2rem 0;
+	margin: 3rem 0;
 }
 .content{
 	width: 100%;
@@ -491,7 +491,7 @@ li.flex-card p{
 }
 #fleet-container{
 margin: 0;
-padding: 0.2rem 0;
+padding: .6rem 0;
 background-color: rgba(15,20,31,.04);
 }
 #fleet-content{
@@ -509,7 +509,7 @@ background-color: rgba(15,20,31,.04);
 	white-space: nowrap;
 }
 #safety-container{
-	margin-top: 3rem;
+	margin-top: 6rem;
 }
 #safety-content{
 
