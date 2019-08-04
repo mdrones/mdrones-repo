@@ -159,7 +159,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 9476,
+				"buffer_size": 8915,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -168,7 +168,7 @@
 			"file": "style.css",
 			"settings":
 			{
-				"buffer_size": 13244,
+				"buffer_size": 13509,
 				"line_ending": "Unix"
 			}
 		}
@@ -242,7 +242,7 @@
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 40.0
 	},
 	"find_in_files":
 	{
@@ -256,6 +256,20 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"logo-container",
+			"logo",
+			".container",
+			"container",
+			"padding",
+			"container",
+			"button",
+			"logo-container",
+			"container",
+			"<hr>",
+			"container",
+			"cta-container",
+			"hr",
+			"content",
 			"faq",
 			"overflow",
 			"60px",
@@ -290,7 +304,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -299,15 +313,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 9476,
+						"buffer_size": 8915,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2523,
-								2523
+								7136,
+								7136
 							]
 						],
 						"settings":
@@ -316,10 +330,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 624.0,
+						"translation.y": 2969.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -328,15 +342,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 13244,
+						"buffer_size": 13509,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								6077,
+								6077
 							]
 						],
 						"settings":
@@ -345,10 +359,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 5758.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
