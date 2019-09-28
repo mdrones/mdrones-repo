@@ -159,7 +159,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 9010,
+				"buffer_size": 9014,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -168,7 +168,7 @@
 			"file": "faq.html",
 			"settings":
 			{
-				"buffer_size": 11472,
+				"buffer_size": 11586,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -177,7 +177,7 @@
 			"file": "style.css",
 			"settings":
 			{
-				"buffer_size": 13508,
+				"buffer_size": 13718,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -252,7 +252,7 @@
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 40.0
 	},
 	"find_in_files":
 	{
@@ -266,6 +266,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"rgba(15,20,31,.04)",
+			"rgba(15,20,31,.04);",
+			"showcase",
 			"logo-container",
 			"logo",
 			".container",
@@ -323,15 +326,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 9010,
+						"buffer_size": 9014,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4616,
-								4616
+								2493,
+								2493
 							]
 						],
 						"settings":
@@ -340,7 +343,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1729.0,
+						"translation.y": 623.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -352,15 +355,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 11472,
+						"buffer_size": 11586,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5948,
-								5948
+								6176,
+								6176
 							]
 						],
 						"settings":
@@ -369,7 +372,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1967.0,
+						"translation.y": 2105.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -381,15 +384,23 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 13508,
+						"buffer_size": 13718,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1611,
-								1611
+								2644,
+								2644
+							],
+							[
+								4569,
+								4569
+							],
+							[
+								8803,
+								8803
 							]
 						],
 						"settings":
@@ -398,7 +409,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1058.0,
+						"translation.y": 2349.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
