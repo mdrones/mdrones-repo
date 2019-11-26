@@ -4,6 +4,66 @@
 		"selected_items":
 		[
 			[
+				"const",
+				"const"
+			],
+			[
+				"Even",
+				"EventEmitter"
+			],
+			[
+				"tot",
+				"totalMemory"
+			],
+			[
+				"for",
+				"for\tfor (…) {…} (Improved Native For-Loop)"
+			],
+			[
+				"Math",
+				"Math_max\t( values...: number ): number Math"
+			],
+			[
+				"scal",
+				"scale()\ttransform"
+			],
+			[
+				"grid-row",
+				"grid-row-start\tproperty"
+			],
+			[
+				"grid-co",
+				"grid-column-start\tproperty"
+			],
+			[
+				"grid",
+				"grid-template-rows\tproperty"
+			],
+			[
+				"grid-te",
+				"grid-template-columns\tproperty"
+			],
+			[
+				"moveD",
+				"moveDownRight"
+			],
+			[
+				"moveDown",
+				"moveDownLeft"
+			],
+			[
+				"moveUp",
+				"moveUpRight"
+			],
+			[
+				"ge",
+				"getElementsByClassName"
+			],
+			[
+				"font-",
+				"font-family\tproperty"
+			],
+			[
 				"f",
 				"flex-start\talign-items"
 			],
@@ -42,10 +102,6 @@
 			[
 				"ea",
 				"ease-in\tanimation-timing-function"
-			],
-			[
-				"for",
-				"for\tfor (…) {…}"
 			],
 			[
 				"class",
@@ -156,28 +212,28 @@
 	"buffers":
 	[
 		{
-			"file": "index.html",
+			"file": "/home/tom/dev/webdev/js-webapp-environment-setup",
 			"settings":
 			{
-				"buffer_size": 9014,
+				"buffer_size": 1631,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "faq.html",
+			"file": "/home/tom/dev/webdev/playground/first-node-app/app.js",
 			"settings":
 			{
-				"buffer_size": 11586,
+				"buffer_size": 1081,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "style.css",
+			"file": "/home/tom/dev/webdev/playground/first-node-app/logger.js",
 			"settings":
 			{
-				"buffer_size": 13718,
+				"buffer_size": 315,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -194,6 +250,50 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"package control: u",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"color scheme",
+				"UI: Select Color Scheme"
+			],
+			[
+				"install package",
+				"Package Control: Install Package"
+			],
 			[
 				"vmen",
 				"View: Toggle Menu"
@@ -217,15 +317,60 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/home/tom/dev/webdev/playground",
+		"/home/tom/dev/webdev/playground/first-node-app"
+	],
 	"file_history":
 	[
+		"/home/tom/dev/webdev/playground/first-node-app/app.js",
+		"/home/tom/dev/webdev/playground/app.js",
+		"/home/tom/dev/webdev/playground/logger.js",
+		"/home/tom/dev/webdev/playground/fizzbuzz.js",
+		"/home/tom/dev/webdev/playground/xy-transform/04/code.js",
+		"/home/tom/.config/sublime-text-3/Packages/Downloaded Schemes/heroku.tmTheme",
+		"/home/tom/dev/webdev/js-webapp-environment-setup",
+		"/home/tom/.config/sublime-text-3/Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
+		"/home/tom/.config/sublime-text-3/Packages/Daylerees Themes/zacks.tmTheme",
+		"/home/tom/dev/webdev/playground/xy-transform/06/index.html",
+		"/home/tom/dev/webdev/playground/xy-transform/06/style.css",
+		"/home/tom/dev/webdev/playground/xy-transform/06/code.js",
+		"/home/tom/dev/webdev/playground/game-loop/mainloop.js/mainloop-mini.js",
+		"/home/tom/dev/webdev/playground/game-loop/mainloop.js/mainloop.js",
+		"/home/tom/dev/webdev/playground/xy-transform/05/code.js",
+		"/home/tom/dev/webdev/playground/xy-transform/05/index.html",
+		"/home/tom/dev/webdev/playground/xy-transform/05/style.css",
+		"/home/tom/dev/webdev/playground/xy-transform/04/style.css",
+		"/home/tom/dev/webdev/playground/xy-transform/04/index.html",
+		"/home/tom/dev/webdev/playground/xy-transform/03/code.js",
+		"/home/tom/dev/webdev/playground/xy-transform/03/style.css",
+		"/home/tom/dev/webdev/playground/xy-transform/03/index.html",
+		"/home/tom/dev/webdev/playground/xy-transform/02/code.js",
+		"/home/tom/dev/webdev/playground/xy-transform/02/style.css",
+		"/home/tom/dev/webdev/playground/xy-transform/02/index.html",
+		"/home/tom/dev/webdev/playground/game-loop/01/code.js",
+		"/home/tom/dev/webdev/playground/game-loop/01/style.css",
+		"/home/tom/dev/webdev/playground/game-loop/01/index.html",
+		"/home/tom/dev/webdev/playground/xy-transform/code.js",
+		"/home/tom/dev/webdev/playground/game-loop/00/code.js",
+		"/home/tom/dev/webdev/playground/game-loop/00/index.html",
+		"/home/tom/dev/webdev/playground/game-loop/00/style.css",
+		"/home/tom/dev/webdev/playground/game-loop/style.css",
+		"/home/tom/dev/webdev/playground/game-loop/index.html",
+		"/home/tom/dev/webdev/playground/game-loop/code.js",
+		"/home/tom/dev/webdev/playground/xy-transform/style.css",
+		"/home/tom/dev/webdev/playground/xy-transform/index.html",
+		"/home/tom/dev/webdev/playground/bem-css/code.js",
+		"/home/tom/dev/webdev/playground/bem-css/style.css",
+		"/home/tom/dev/webdev/playground/bem-css/index.html",
 		"/home/tom/dev/webdev/milestone/mdrones-repo/style.css",
-		"/home/tom/dev/webdev/milestone/mdrones-repo/index.html",
 		"/home/tom/dev/webdev/milestone/mdrones-repo/thankyou.html",
 		"/home/tom/dev/webdev/milestone/mdrones-repo/privacy.html",
+		"/home/tom/dev/webdev/milestone/mdrones-repo/faq.html",
 		"/home/tom/dev/webdev/milestone/mdrones-repo/contact.html",
 		"/home/tom/dev/webdev/milestone/mdrones-repo/404.html",
-		"/home/tom/dev/webdev/milestone/mdrones-repo/faq.html",
+		"/home/tom/dev/webdev/milestone/mdrones-repo/index.html",
 		"/home/tom/dev/webdev/tunepad/proto_04/script.js",
 		"/home/tom/dev/webdev/tunepad/proto_04/style.css",
 		"/home/tom/dev/webdev/tunepad/proto_04/index.html",
@@ -252,11 +397,11 @@
 	],
 	"find":
 	{
-		"height": 40.0
+		"height": 30.0
 	},
 	"find_in_files":
 	{
-		"height": 102.0,
+		"height": 112.0,
 		"where_history":
 		[
 		]
@@ -266,6 +411,39 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"* delta",
+			"timestep",
+			"* delta",
+			"root",
+			"moveActor",
+			"actorVelocity",
+			"velocity",
+			"distance",
+			"keyState",
+			"u",
+			"l",
+			"darr",
+			"rarrBtn",
+			"rarr",
+			"uarr",
+			"larr",
+			"event",
+			"state",
+			"lastKey",
+			"updateState",
+			"update",
+			"checkState",
+			"Down",
+			"distance",
+			"speed",
+			"secondsPassed",
+			"speed",
+			"keyboardMove",
+			"uiMove",
+			"doSomething",
+			"clearInterval",
+			"timer",
+			"event",
 			"rgba(15,20,31,.04)",
 			"rgba(15,20,31,.04);",
 			"showcase",
@@ -317,99 +495,89 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
+					"file": "/home/tom/dev/webdev/js-webapp-environment-setup",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 9014,
+						"buffer_size": 1631,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2493,
-								2493
+								1548,
+								1548
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 623.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "faq.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 11586,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6176,
-								6176
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2105.0,
+						"translation.y": 244.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "style.css",
+					"buffer": 1,
+					"file": "/home/tom/dev/webdev/playground/first-node-app/app.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 13718,
+						"buffer_size": 1081,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2644,
-								2644
-							],
-							[
-								4569,
-								4569
-							],
-							[
-								8803,
-								8803
+								1066,
+								1066
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 2349.0,
+						"translation.y": 604.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/tom/dev/webdev/playground/first-node-app/logger.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 315,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								196,
+								196
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -420,11 +588,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 26.0
+		"height": 30.0
 	},
 	"input":
 	{
-		"height": 40.0
+		"height": 55.0
 	},
 	"layout":
 	{
@@ -457,7 +625,7 @@
 	"project": "index.sublime-project",
 	"replace":
 	{
-		"height": 48.0
+		"height": 56.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -495,7 +663,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 237.0,
+	"side_bar_width": 279.0,
 	"status_bar_visible": false,
 	"template_settings":
 	{
