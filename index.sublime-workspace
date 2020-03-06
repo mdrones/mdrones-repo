@@ -4,6 +4,118 @@
 		"selected_items":
 		[
 			[
+				"creates",
+				"http.createServer"
+			],
+			[
+				"sc",
+				"scaleX()\ttransform"
+			],
+			[
+				"transform",
+				"transform\tproperty"
+			],
+			[
+				"x",
+				"scaleX()\ttransform"
+			],
+			[
+				"setT",
+				"setTimeout"
+			],
+			[
+				"set",
+				"setTimeout\t( handler: any, timeout?: long, arguments_..: any ): long Window"
+			],
+			[
+				"inline",
+				"inline-block\tdisplay"
+			],
+			[
+				"flex",
+				"flex-grow\tproperty"
+			],
+			[
+				"getEleme",
+				"getElementsByClassName\t( classNames: DOMString ): HTMLCollection Document"
+			],
+			[
+				"quer",
+				"querySelector\t( selectors: DOMString ): Element Document"
+			],
+			[
+				"b",
+				"content-box\tbox-sizing"
+			],
+			[
+				"border",
+				"border-right\tproperty"
+			],
+			[
+				"box",
+				"box-sizing\tproperty"
+			],
+			[
+				"d",
+				"display\tproperty"
+			],
+			[
+				"margin",
+				"margin\tproperty"
+			],
+			[
+				"c",
+				"concat\t( strings_..: string ): string String"
+			],
+			[
+				"first",
+				"firstToLast"
+			],
+			[
+				"toU",
+				"toUpperCase\t(): string String"
+			],
+			[
+				"toL",
+				"toLowerCase\t(): string String"
+			],
+			[
+				"char",
+				"charArray"
+			],
+			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
+				"spl",
+				"split\t( separator: string, limit: int ): string String"
+			],
+			[
+				"s",
+				"slice\t( start: int, end: int ): Array Array"
+			],
+			[
+				"if",
+				"if"
+			],
+			[
+				"function",
+				"function_with_name"
+			],
+			[
+				"func",
+				"function_with_name"
+			],
+			[
+				"exp",
+				"exports"
+			],
+			[
+				"mod",
+				"module.exports"
+			],
+			[
 				"const",
 				"const"
 			],
@@ -14,10 +126,6 @@
 			[
 				"tot",
 				"totalMemory"
-			],
-			[
-				"for",
-				"for\tfor (…) {…} (Improved Native For-Loop)"
 			],
 			[
 				"Math",
@@ -108,10 +216,6 @@
 				"classList"
 			],
 			[
-				"c",
-				"click"
-			],
-			[
 				"add",
 				"addEventListener"
 			],
@@ -130,10 +234,6 @@
 			[
 				"gray-ligh",
 				"gray-lighten-30"
-			],
-			[
-				"box",
-				"box-shadow\tproperty"
 			],
 			[
 				"gr",
@@ -188,10 +288,6 @@
 				"gray-darken-20"
 			],
 			[
-				"s",
-				"space-xxxl"
-			],
-			[
 				"over",
 				"overflow-x\tproperty"
 			],
@@ -212,28 +308,18 @@
 	"buffers":
 	[
 		{
-			"file": "/home/tom/dev/webdev/js-webapp-environment-setup",
+			"file": "/home/tom/dev/webdev/design-system/06/server.js",
 			"settings":
 			{
-				"buffer_size": 1631,
-				"encoding": "UTF-8",
+				"buffer_size": 3226,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/tom/dev/webdev/playground/first-node-app/app.js",
+			"file": "/home/tom/dev/webdev/design-system/06/code.js",
 			"settings":
 			{
-				"buffer_size": 1081,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/tom/dev/webdev/playground/first-node-app/logger.js",
-			"settings":
-			{
-				"buffer_size": 315,
+				"buffer_size": 2606,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -251,6 +337,22 @@
 		"selected_items":
 		[
 			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: rem",
+				"Package Control: Remove Package"
+			],
+			[
 				"inst",
 				"Package Control: Install Package"
 			],
@@ -259,19 +361,7 @@
 				"Package Control: Upgrade/Overwrite All Packages"
 			],
 			[
-				"remove",
-				"Package Control: Remove Package"
-			],
-			[
 				"Package Control: ",
-				"Package Control: Install Package"
-			],
-			[
-				"ins",
-				"Package Control: Install Package"
-			],
-			[
-				"insta",
 				"Package Control: Install Package"
 			],
 			[
@@ -319,18 +409,52 @@
 	},
 	"expanded_folders":
 	[
-		"/home/tom/dev/webdev/playground",
-		"/home/tom/dev/webdev/playground/first-node-app"
+		"/home/tom/dev/webdev",
+		"/home/tom/dev/webdev/design-system",
+		"/home/tom/dev/webdev/design-system/06"
 	],
 	"file_history":
 	[
+		"/home/tom/dev/webdev/design-system/05/server.js",
+		"/home/tom/dev/webdev/design-system/05/code.js",
+		"/home/tom/dev/webdev/design-system/05/404.html",
+		"/home/tom/dev/webdev/design-system/05/node-server.js",
+		"/home/tom/dev/webdev/design-system/04/code.js",
+		"/home/tom/dev/webdev/design-system/04/style.css",
+		"/home/tom/dev/webdev/design-system/04/index.html",
+		"/home/tom/dev/webdev/design-system/03/code.js",
+		"/home/tom/dev/webdev/design-system/03/style.css",
+		"/home/tom/dev/webdev/design-system/03/index.html",
+		"/home/tom/dev/webdev/design-system/02/code.js",
+		"/home/tom/dev/webdev/design-system/02/style.css",
+		"/home/tom/dev/webdev/design-system/02/index.html",
+		"/home/tom/dev/webdev/design-system/01/code.js",
+		"/home/tom/dev/webdev/design-system/01/style.css",
+		"/home/tom/dev/webdev/design-system/01/index.html",
+		"/home/tom/dev/webdev/design-system/edit-css-in-browser/code.js",
+		"/home/tom/dev/webdev/design-system/edit-css-in-browser/style.css",
+		"/home/tom/dev/webdev/design-system/edit-css-in-browser/index.html",
+		"/home/tom/dev/css-utility/index.html",
+		"/home/tom/dev/css-utility/style.css",
+		"/home/tom/dev/webdev/js-webapp-environment-setup",
+		"/home/tom/dev/test.js",
+		"/home/tom/dev/helloworld.cpp",
+		"/home/tom/dev/increment-string-codewars.js",
+		"/home/tom/dev/transpose-codewars-02.js",
+		"/home/tom/dev/transpose-codewars.js",
+		"/home/tom/dev/webdev/practice/nodejs-course/logger.js",
+		"/home/tom/dev/webdev/practice/nodejs-course/app.js",
+		"/home/tom/dev/transpose-codewars",
+		"/home/tom/dev/webdev/practice/nodejs-course/ref-module-exports.js",
+		"/home/tom/dev/webdev/practice/the-complete-nodejs-course/app.js",
+		"/home/tom/dev/webdev/milestone/mdrones-repo/index.html",
+		"/home/tom/dev/webdev/playground/first-node-app/logger.js",
 		"/home/tom/dev/webdev/playground/first-node-app/app.js",
 		"/home/tom/dev/webdev/playground/app.js",
 		"/home/tom/dev/webdev/playground/logger.js",
 		"/home/tom/dev/webdev/playground/fizzbuzz.js",
 		"/home/tom/dev/webdev/playground/xy-transform/04/code.js",
 		"/home/tom/.config/sublime-text-3/Packages/Downloaded Schemes/heroku.tmTheme",
-		"/home/tom/dev/webdev/js-webapp-environment-setup",
 		"/home/tom/.config/sublime-text-3/Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
 		"/home/tom/.config/sublime-text-3/Packages/Daylerees Themes/zacks.tmTheme",
 		"/home/tom/dev/webdev/playground/xy-transform/06/index.html",
@@ -370,7 +494,6 @@
 		"/home/tom/dev/webdev/milestone/mdrones-repo/faq.html",
 		"/home/tom/dev/webdev/milestone/mdrones-repo/contact.html",
 		"/home/tom/dev/webdev/milestone/mdrones-repo/404.html",
-		"/home/tom/dev/webdev/milestone/mdrones-repo/index.html",
 		"/home/tom/dev/webdev/tunepad/proto_04/script.js",
 		"/home/tom/dev/webdev/tunepad/proto_04/style.css",
 		"/home/tom/dev/webdev/tunepad/proto_04/index.html",
@@ -397,11 +520,11 @@
 	],
 	"find":
 	{
-		"height": 30.0
+		"height": 57.0
 	},
 	"find_in_files":
 	{
-		"height": 112.0,
+		"height": 217.0,
 		"where_history":
 		[
 		]
@@ -411,6 +534,23 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"resize-hover",
+			"fuck",
+			"window.addEventListener",
+			"\"",
+			"'",
+			"\"",
+			"view",
+			"'",
+			"block { display: block",
+			"rem",
+			".fs-1",
+			"numbers",
+			"tab",
+			"col",
+			"tab",
+			"e|-------10-12-----12-|-13-----13-7-----7-|-5---------5-----|------------------|\nB|-----10-----10-----|----10--------8-----|---6---6-----6---|-5-6-6------------|\nG|---10---------10---|------10--------7---|-----7---------7-|-5-7-7------------|\nD|-12-------11-------|-10---------9-------|-8---------------|------------------|\nA|-----------------|-------------------|-----------------|-7-5-5---5--/13-12-|\nE|-----------------|-------------------|-----------------|------------------|",
+			"fret",
 			"* delta",
 			"timestep",
 			"* delta",
@@ -495,89 +635,63 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/home/tom/dev/webdev/js-webapp-environment-setup",
+					"file": "/home/tom/dev/webdev/design-system/06/server.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1631,
+						"buffer_size": 3226,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1548,
-								1548
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 244.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/home/tom/dev/webdev/playground/first-node-app/app.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1081,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1066,
-								1066
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 604.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "/home/tom/dev/webdev/playground/first-node-app/logger.js",
+					"buffer": 1,
+					"file": "/home/tom/dev/webdev/design-system/06/code.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 315,
+						"buffer_size": 2606,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								196,
-								196
+								1,
+								1
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 6.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -588,11 +702,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 30.0
+		"height": 32.0
 	},
 	"input":
 	{
-		"height": 55.0
+		"height": 100.0
 	},
 	"layout":
 	{
@@ -625,7 +739,7 @@
 	"project": "index.sublime-project",
 	"replace":
 	{
-		"height": 56.0
+		"height": 60.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -663,8 +777,8 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 279.0,
-	"status_bar_visible": false,
+	"side_bar_width": 209.0,
+	"status_bar_visible": true,
 	"template_settings":
 	{
 	}
