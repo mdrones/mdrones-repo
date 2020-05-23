@@ -149,8 +149,9 @@ iframe#martello{
 	position: initial;
 }
 #showcase-container{
-	background-color: rgba(15,20,31,.05);
-	padding: 4rem 0;
+	/*background-color: rgba(15,20,31,.2);*/
+	padding: 4rem 0 0 0;
+	margin: 0;
 }
 .flight-footage-container{
 	position: relative;
@@ -169,7 +170,7 @@ iframe#flight-footage{
 	width: 100%;
 	height: 100%;
 	max-width: 1920px;
-	box-shadow: 0px 8px 32px rgba(0,0,0,.2);
+	/*box-shadow: 0px 16px 32px rgba(0,0,0,.1);*/
 }
 video{
 	margin: 1rem 0;
@@ -177,9 +178,9 @@ video{
 hr{
 	width: 76vw;
 	height: 2px;
-	color: #edeff4;
-	border: 1px solid;
-	margin: 1rem 0;
+	color: rgba(15,20,31,.08);
+	border: 1px dashed;
+	margin: 2rem 0;
 }
 a{
 	color: #058ed9;
@@ -262,7 +263,7 @@ button.normal:hover{
 	width: 100%;
 	margin-top: 3rem;
 	padding: 3rem 6rem;
-	background-color: rgba(15,20,31,.05);
+	background-color: rgba(15,20,31,.08);
 }
 #caa-logo-container{
 	display: flex;
@@ -478,7 +479,7 @@ li.flex-card p{
 	left: -10vw;
 	width: 110vw;
 	height: 100%;
-	opacity: 0.25;
+	opacity: 0.2;
 	z-index: -2;
 	background-image: url(images/sea.jpeg);
 	background-position: 0% 40%;
@@ -507,13 +508,14 @@ li.flex-card p{
 	background-color: #25324e;
 }
 #hero-content{
-	padding-top: 4rem;
-	padding-bottom: 4rem;
+	padding-top: 6rem;
+	padding-bottom: 6rem;
+	text-shadow: 0px 4px 4px rgba(0,0,0,.2);
 }
 #fleet-container{
 margin: 0;
-padding: .6rem 0;
-background-color: rgba(15,20,31,.05);
+/*padding: .6rem 0;*/
+/*background-color: rgba(15,20,31,.05);*/
 }
 #fleet-content{
 	display: flex;
@@ -772,7 +774,8 @@ ul#menu a:hover li{
 		display: none;
 	}
 	#showcase-container{
-		padding: 3rem 0;
+		padding: 4rem 0 0 0;
+		margin: 0;
 	}
 	.container{
 		margin: 2rem 0;
@@ -815,7 +818,8 @@ ul#menu a:hover li{
 		margin: 2rem 0;
 	}
 	#showcase-container{
-		padding: 2rem 0;
+		padding: 4rem 0 0 0;
+		margin: 0;
 	}
 	#safety-container{
 		margin-top: 4rem;
