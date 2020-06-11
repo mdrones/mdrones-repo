@@ -16,18 +16,18 @@ html{
 	/*font-size: calc(min fs + (max fs - min fs) * ((100vw - min vw) / (max vw - min vw)));*/
 	font-size: calc(16px + (20 - 16) * ((100vw - 300px) / (1100 - 300)));
 	display: block;
-	width: 100
-	height: 100%;
+/*	width: 100%;
+	height: 100%;*/
 }
 body{
 	max-width: 100%;
 	width: 100vw;
-	margin: 0 auto;
+	/*margin: 0 auto;*/
 	background-color: #fff;
 	font-family: 'Hind Madurai', sans-serif;
+	position: static;
 	display: flex;
-	position: relative;
-	min-height: 100vh;
+	/*min-height: 100vh;*/
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-between;
@@ -313,7 +313,7 @@ button.tertiary:hover{
 	padding: 1rem 1.1rem 0.5rem 1.1rem;
 	position: fixed;
 	left: 50%;
-	bottom: -8vh;
+	bottom: -56px;
 	transform: translate(-50%, -50%);
 	z-index: 999;
 	background-color: #ffffff;
@@ -912,7 +912,7 @@ ul#menu a:hover li{
 		padding: 1rem 1.1rem 0.5rem 1.1rem;
 		position: fixed;
 		left: 50%;
-		bottom: -8vh;
+		bottom: -48px;
 		transform: translate(-50%, -50%);
 		z-index: 9999;
 		box-shadow: 0px 12px 24px rgba(15,20,31,.6);
@@ -946,7 +946,7 @@ ul#menu a:hover li{
 		padding: 1rem 1.1rem 0.5rem 1.1rem;
 		position: fixed;
 		left: 50%;
-		bottom: -12vh;
+		bottom: -80px;
 		transform: translate(-50%, -50%);
 		z-index: 9999;
 		box-shadow: 0px 12px 24px rgba(15,20,31,.6);
