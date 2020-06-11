@@ -1,3 +1,11 @@
+// https://developers.google.com/analytics/devguides/collection/gajs/#disable
+// document.cookie = "ga-disable-UA-130235786-1=true; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+
+if (document.cookie.indexOf(disableStr) == -1) {
+	var gaDialog = document.getElementsByClassName('ga-consent-container')[0];
+	gaDialog.style.display = 'flex';
+}
+
 //control whether the 3d model is loaded (src) and displayed (inline)
 function toggleiFrame(){
 	var heading = document.getElementById('toggle-model-text');
@@ -35,7 +43,7 @@ function toggleScroll(){
 function expandNav(){
 	// logo.src = 'images/wide_tagline.svg';
 	logo.style.height = ('3rem');
-	navcontent.style.padding = ('0.5rem 6vw');
+	navcontent.style.padding = ('1rem 6vw');
 }
 
 function shrinkNav(){
@@ -61,7 +69,7 @@ window.onscroll = function(){
 	else if((atTop == 0) && (window.scrollY < 80)){
 		logo.src = 'images/wide_tagline.svg';
 		logo.style.height = ('3rem');
-		navcontent.style.padding = ('0.6rem 5vw');
+		navcontent.style.padding = ('1rem 5vw');
 		atTop = 1;
 	}
 };
