@@ -93,7 +93,7 @@ h6{
 	font-size: 0.8rem;
 	font-weight: 400;
 	color: #4a4f59;
-	opacity: 0.7;
+	opacity: 0.8;
 }
 p{
 	margin: 0.6rem 0;
@@ -304,9 +304,11 @@ button.tertiary:hover{
 }
 .ga-consent-container{
 	display: none;
-	width: 64vw;
-	max-width: 960px;
+	width: 24rem;
+	max-width: 660px;
 	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 	/*position: absolute;*/
 	padding: 1rem 1.1rem 0.5rem 1.1rem;
 	position: fixed;
@@ -316,7 +318,7 @@ button.tertiary:hover{
 	z-index: 999;
 	background-color: #ffffff;
 	border-radius: 8px;
-	box-shadow: 0px 16px 32px rgba(15,20,31,.4);
+	box-shadow: 0px 12px 24px rgba(15,20,31,.6);
 	text-align: center;
 }
 .ga-consent-button-container{
@@ -324,6 +326,7 @@ button.tertiary:hover{
 	flex-direction: row;
 	flex-flow: row-reverse;
 	width: 100%;
+	max-width: 600px;
 }
 .ga-consent-button-container a{
 	width: 100%;
@@ -899,29 +902,24 @@ ul#menu a:hover li{
 	li.flex-card{
 		width: 18rem;
 	}
-	.ga-form-content{
-		width: 80%;
+	#logo-container{
+		padding: 1rem 7vw;
 	}
 	.ga-consent-container{
 		display: flex;
 		flex-direction: column;
+		width: 64vw;
+		min-width: 72vw;
 		position: absolute;
 		padding: 1rem 1.1rem 0.5rem 1.1rem;
 		position: fixed;
 		left: 50%;
-		bottom: -12%;
+		bottom: -8%;
 		transform: translate(-50%, -50%);
 		z-index: 9999;
-		box-shadow: 0px 16px 32px rgba(15,20,31,.4);
+		box-shadow: 0px 12px 24px rgba(15,20,31,.6);
 		text-align: center;
-		min-width: 70vw;
 	}
-	#logo-container{
-		padding: 1rem 7vw;
-	}
-/*	.ga-consent-button-container{
-		flex-direction: column;
-	}*/
 }
 
 /*PHONES*/
@@ -947,15 +945,15 @@ ul#menu a:hover li{
 		display: flex;
 		flex-direction: column;
 		position: absolute;
+		min-width: 80vw;
 		padding: 1rem 1.1rem 0.5rem 1.1rem;
 		position: fixed;
 		left: 50%;
 		bottom: -14%;
 		transform: translate(-50%, -50%);
 		z-index: 9999;
-		box-shadow: 0px 16px 32px rgba(15,20,31,.4);
+		box-shadow: 0px 12px 24px rgba(15,20,31,.6);
 		text-align: center;
-		min-width: 80vw;
 	}
 	.ga-consent-button-container{
 		flex-direction: column;
