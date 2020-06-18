@@ -16,18 +16,14 @@ html{
 	/*font-size: calc(min fs + (max fs - min fs) * ((100vw - min vw) / (max vw - min vw)));*/
 	font-size: calc(16px + (20 - 16) * ((100vw - 300px) / (1100 - 300)));
 	display: block;
-/*	width: 100%;
-	height: 100%;*/
 }
 body{
 	max-width: 100%;
 	width: 100vw;
-	/*margin: 0 auto;*/
 	background-color: #fff;
 	font-family: 'Hind Madurai', sans-serif;
 	position: static;
 	display: flex;
-	/*min-height: 100vh;*/
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-between;
@@ -84,12 +80,6 @@ h5{
 	bottom: -0.1rem;
 	opacity: 0.7;
 }
-/*h6:before{
-	content: '\0024D8';
-	margin-right: 0.4rem;
-	font-size: 0.7rem;
-	color: #25324e;
-}*/
 h6{
 	font-size: 0.8rem;
 	font-weight: 400;
@@ -199,8 +189,6 @@ a:hover{
 	cursor: pointer;
 }
 
-/*============================================== CLASS */
-
 .hidden{
 	display: none;
 	/*visibility: hidden;*/
@@ -223,7 +211,6 @@ a:hover{
 .indented-para{
 	/*margin: 0;*/
 }
-/* REMOVE LINE BREAK AND REINSERT PARAGRAPH MARGIN - ADD THIS MARGIN TO NUMBER AS WELL */
 .terms-container{
 	display: flex;
 	flex-direction: row;
@@ -260,7 +247,6 @@ button.cta{
 }
 button.cta:hover{
 	cursor: pointer;
-	/*color: #fff;*/
 	box-shadow: inset 0 0 100px 100px #F2C969, 0 0 0.8rem rgba(239, 189, 71, 0);
 }
 button.secondary{
@@ -270,7 +256,6 @@ button.secondary{
 	border-radius: 6px;
 	color: #fff;
 	background-color: #25324e;
-	/*border: none;*/
 }
 button.secondary:hover{
 	cursor: pointer;
@@ -478,7 +463,6 @@ li.flex-card p{
 .footer-container{
 	padding: 1rem 0;
 	width: 100%;
-	/*margin-top: 3rem;*/
 	background-color: #25324E;
 	position: relative;
 	bottom: 0;
@@ -532,9 +516,6 @@ li.flex-card p{
 	opacity: 0.6;
 	margin: 2.4rem 0 0.4rem 0;
 }
-
-/*============================================== ID */
-
 #navbar-container{
 	width: 100%;
 	z-index: 999;
@@ -611,9 +592,9 @@ li.flex-card p{
 	text-shadow: 0px 2px 4px rgba(0,0,0,.2);
 }
 #fleet-container{
-margin: 0;
-/*padding: .6rem 0;*/
-/*background-color: rgba(15,20,31,.05);*/
+	margin: 0;
+	/*padding: .6rem 0;*/
+	/*background-color: rgba(15,20,31,.05);*/
 }
 #fleet-content{
 	display: flex;
@@ -845,8 +826,6 @@ ul#menu a:hover li{
     content: '\2212';
     color: #fff;
     opacity: 0.8;
-/*    position: relative;
-    top: 0px;*/
 }
 
 /*============================================== MEDIA QUERIES */
@@ -919,7 +898,6 @@ ul#menu a:hover li{
 		text-align: center;
 	}
 }
-
 /*PHONES*/
 @media only screen and (max-width: 500px){
 	.container{

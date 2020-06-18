@@ -1,6 +1,3 @@
-// https://developers.google.com/analytics/devguides/collection/gajs/#disable
-// document.cookie = "ga-disable-UA-130235786-1=true; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
-
 if (document.cookie.indexOf(disableStr) == -1) {
 	var gaDialog = document.getElementsByClassName('ga-consent-container')[0];
 	gaDialog.style.display = 'flex';
@@ -24,7 +21,6 @@ function toggleiFrame(){
 		heading.innerHTML = "Show 3D Model";
 	}
 }
-
 
 //toggle-remove scrollbars when the menu is open to prevent scrolling
 window.onload = toggleScroll();
@@ -54,7 +50,6 @@ function shrinkNav(){
 	}
 }
 
-
 //shrink navbar when scrolling
 var logo = document.getElementById('nav-logo');
 var navcontent = document.getElementById('navbar-content');
@@ -73,7 +68,6 @@ window.onscroll = function(){
 		atTop = 1;
 	}
 };
-
 
 // faq accordion
 var faq = document.getElementsByClassName('faq-question');
