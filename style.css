@@ -345,7 +345,7 @@ button.tertiary:hover{
 	width: 100%;
 	margin-top: 3rem;
 	padding: 3rem 6rem;
-	background-color: rgba(15,20,31,.08);
+	background-color: rgba(15,20,31,.04);
 }
 #caa-logo-container{
 	display: flex;
