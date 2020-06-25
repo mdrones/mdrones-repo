@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+	<head lang="en-GB">
+<!-- ga-consent -->
+		<script>
+			var gaProperty = 'UA-130235786-1';
+			var disableStr = 'ga-disable-' + gaProperty;
+			
+			if (document.cookie.indexOf(disableStr + '=true') > -1) {
+				window[disableStr] = true;
+			}
+
+			function gaOptout() {
+				document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+				window[disableStr] = true;
+				var gaDialog = document.getElementsByClassName('ga-consent-container')[0];
+				gaDialog.style.display = 'none';
+			}
+			
+			function gaOptin() {
+				document.cookie = disableStr + '=false; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+				window[disableStr] = false;
+				var gaDialog = document.getElementsByClassName('ga-consent-container')[0];
+				gaDialog.style.display = 'none';
+			}
+		</script>
+<!-- ga -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-130235786-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-130235786-1');
+		</script>
+<!-- head -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<style>html{display:none;}</style>
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+		<link rel="manifest" href="/site.webmanifest">
+		<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#222222">
+		<meta name="msapplication-TileColor" content="#e8c547">
+		<meta name="theme-color" content="#ffffff">
+		<link rel="icon" href="favicon.ico" type="image/x-icon"> 
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<meta name="theme-color" content="#5299d3" />
+		<title>Pricing — Milestone Drones</title>
+		<meta name="description" content="Milestone Drones — Read our Privacy Policy to learn about the data we collect, how we keep it safe, and how we respect your rights.">
+	</head>
+	<body>
+<!-- ga consent dialog -->
+		<div class="ga-consent-container">
+			<h6>With your permission, cookie data helps improve our service as per our <a href="privacy.html" class="text-link">Privacy Policy</a>.</h6>
+			<div class="ga-consent-button-container">
+				<a href="javascript:gaOptin()"><button class="secondary"><img src="images/icon-cookie.svg" class="inline-icon">Agree&nbsp;&nbsp;&nbsp;</button></a>				
+				<a href="javascript:gaOptout()"><button class="tertiary">Disagree</button></a>
+			</div>
+		</div>
+<!-- navbar container -->
+		<div id="navbar-container">
+<!-- navbar content -->
+			<div id="navbar-content">
+				<a href="/"><img src="images/wide_tagline.svg" alt="Milestone Drones Aerial Photography" id="nav-logo"></a>
+				<!-- <p class="navbar-promo"></p> -->
+				<div id="menuToggle">
+					<input type="checkbox" id="menu-checkbox" onclick="toggleScroll()" />
+					<span></span>
+					<span></span>
+					<span></span>
+					<ul id="menu">
+						<a href="/"><li>Home</li></a>
+						<a href="pricing.html"><li id="current-page">Pricing</li></a>
+						<a href="faq.html"><li>FAQ</li></a>
+						<a href="contact.html"><li>Contact Us</li></a>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="spacer-nav"></div>
+		
+		<div id="form-success-container" class="container">
+			<div id="form-success-content" class="content">
+				<h4>Pricing</h4>
+
+<!-- left align nav menu items and use border-left vertical line to indicate current page -->
+<!-- https://dronephotographyservices.co.uk/aerial-photography-prices/ -->
+
+				<h5>Contact us</h5>
+				<p>For matters concerning your privacy you can contact us via email, telephone or the contact form on our website. We will be happy to help.</p>
+				<br>
+				<a href="/"><button class="secondary"><h3>Back Home</h3></button></a>
+				<a href="contact.html"><button class="cta"><h3>Contact Us</h3></button></a>
+			</div>
+		</div>
+<!-- footer container -->
+		<footer class="footer-container">
+<!-- footer content -->
+			<div class="footer-content">
+				<div class="social-icon-container">
+					<a href="https://www.facebook.com/milestonedrones/" target="_blank">
+						<img src="images/icon_fb.svg" class="social-icon">
+					</a>
+					<a href="https://twitter.com/milestonedrones" target="_blank">
+						<img src="images/icon_tw.svg" class="social-icon">
+					</a>
+					<a href="https://uk.linkedin.com/in/stephen-knapp-8488301a" target="_blank">
+						<img src="images/icon_li.svg" class="social-icon">
+					</a>
+					<a href="https://www.youtube.com/channel/UC_7MXTFF8leyz9Y1MRaiuZw" target="_blank">
+						<img src="images/icon_yt.svg" class="social-icon">
+					</a>
+					<a href="https://vimeo.com/milestonedrones" target="_blank">
+						<img src="images/icon_vi.svg" class="social-icon">
+					</a>
+					<a href="https://www.instagram.com/milestonedrones/" target="_blank">
+						<img src="images/icon_in.svg" class="social-icon">
+					</a>
+				</div>
+				<p class="footer-text">Bexhill, East Sussex, UK</p>
+				<p class="footer-text">Telephone: 07856 599 498</p>
+				<p class="footer-text">Email: <a class="footer-link" href="mailto:info@milestonedrones.co.uk">info@milestonedrones.co.uk</a></p>
+				<p class="footer-text"><a href="privacy.html" class="footer-link">Privacy Policy</a></p>
+				<p class="footer-text"><a href="terms-and-conditions.html" class="footer-link">Terms and Conditions</a></p>
+				<p class="footer-fineprint">&copy2019 Milestone Drones Ltd. All rights reserved.</p>
+			</div>
+		</footer>
+		<link href="https://fonts.googleapis.com/css?family=Hind+Madurai:400,700" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="code.js"></script>
+
+		<!-- Start of HubSpot Embed Code -->
+		<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/6025079.js"></script>
+		<!-- End of HubSpot Embed Code -->
+	</body>
+</html>

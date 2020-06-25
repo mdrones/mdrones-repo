@@ -178,7 +178,7 @@ video{
 hr{
 	width: 76vw;
 	height: 2px;
-	color: rgba(15,20,31,.1);
+	color: rgba(15,20,31,.12);
 	border: 1px dashed;
 	margin: 2rem 0;
 }
@@ -343,8 +343,8 @@ button.tertiary:hover{
 	justify-content: center;
 	flex-flow: wrap;
 	width: 100%;
-	margin-top: 3rem;
-	padding: 3rem 6rem;
+	margin-top: 6rem;
+	padding: 2rem 6rem;
 	background-color: rgba(15,20,31,.04);
 }
 #caa-logo-container{
@@ -442,6 +442,69 @@ li.flex-card p{
 	width: 9rem;
 	margin: 0 auto;
 }
+
+
+/*SET A BREAKPOINT FOR THE PRICING CARDS*/
+ul.flex-grid-pricing{
+	display: flex;
+	flex-flow: wrap;
+	margin: 0 auto;
+}
+li.flex-card-pricing{
+	display: block;
+	width: 14rem;
+	padding: 1rem 0 1.5rem 0;
+	margin: 0.6rem auto;
+	margin-top: 2rem;
+	line-height: 1.2rem;
+	text-align: center;
+	background-color: rgba(15,20,31,.04);
+	/*background-color: rgba(239,189,71,.1);*/
+	/*border: 2px solid rgba(15,20,31,.06);*/
+	border-radius: 16px;
+}
+/*li.flex-card-pricing:first-child{
+	margin-left: 0;
+}
+li.flex-card-pricing:last-child{
+	margin-right: 0;
+}*/
+li.flex-card-pricing hr{
+	margin: 2rem auto;
+	width: 80%;
+	color: rgba(15,20,31,.14);
+	/*color: rgba(239,189,71,.6);*/
+}
+li.flex-card-pricing h3{
+	margin: 1rem 0 3rem 0;
+	font-size: 1.2rem;
+	font-weight: 700;
+	color: #25324E;
+}
+li.flex-card-pricing h4{
+	font-size: 4rem;
+	font-weight: 400;
+	position: relative;
+	left: -0.4rem;
+	margin-bottom: 1.2rem;
+}
+li.flex-card-pricing span{
+	margin: 0 0.4rem 0 0;
+	font-size: 1.8rem;
+	font-weight: 400;
+	color: #25324E;
+	opacity: 0.8;
+	position: relative;
+	top: -1.35rem;
+}
+li.flex-card-pricing p{
+	margin: 1rem 1.2rem 0.2rem 1.2rem;
+	font-size: 0.8rem;
+	font-weight: 400;
+	color: #4a4f59;
+}
+
+
 .social-icon-container{
 	width: 100%;
 	display: flex;
@@ -767,15 +830,16 @@ ul#menu a{
 	transition: box-shadow 0.2s;
 }
 ul#menu a:hover{
-	box-shadow: inset 0 0 100px 100px rgba(0,0,0,0.05);
+	box-shadow: inset 0 0 100px 100px rgba(0,0,0,0.1);
 	transition: box-shadow 0.2s;
 }
 ul#menu a:hover li{
 	color: #efbd47;
 }
 #menu li#current-page{
-	opacity: 0.5;
-	color: #fff;
+	/*opacity: 0.5;*/
+	color: #efbd47;
+	/*text-decoration: underline;*/
 }
 #menuToggle input:checked ~ ul{
 	transform: none;
